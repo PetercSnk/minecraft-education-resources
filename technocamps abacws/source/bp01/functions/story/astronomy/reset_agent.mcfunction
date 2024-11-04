@@ -1,1 +1,0 @@
-execute as @p run teleport @c -270 -28 227 facing -269 -28 227
