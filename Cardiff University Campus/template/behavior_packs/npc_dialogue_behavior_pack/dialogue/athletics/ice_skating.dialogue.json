@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "ice_skating_welcome",
+				"npc_name": "Ice Skating Club Rep",
+				"text": "Cardiff Uni Ice Skating Club (CUISC) is about people to try out skating, whether as a novice or a regular skater. It includes both hockey and figure skating.\n\nAll our sessions have coaches attending.\n\nIt is a great way to socialise and keep fit as well as trying something a little different.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator ice_skating_when"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator ice_skating_cost"]
+					},
+					{
+						"name": "Kind of Socials?",
+						"commands": ["/dialogue open @s @initiator ice_skating_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/cuisc/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cuiceskatingclub"
+					}
+				]
+			},
+			{
+				"scene_tag": "ice_skating_when",
+				"npc_name": "Ice Skating Club Rep",
+				"text": "We have training every Wednesday from 13:30 - 14:30 at Vindico Arena Cardiff. For socials and GIAGs keep an eye out on our SU page and instagram for up to date details, and keep an eye out for changes in the training schedule.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator ice_skating_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "ice_skating_cost",
+				"npc_name": "Ice Skating Club Rep",
+				"text": "Our Standard Membership is £25.00 but we also have a half year/erasmus membership which is £15.00.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator ice_skating_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "ice_skating_socials",
+				"npc_name": "Ice Skating Club Rep",
+				"text": "We have all sorts of socials, primarily themed pub/club nights but also discos and uncoached ice skating trips as sober socials! Keep an eye out on our social media for these annoucements.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator ice_skating_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

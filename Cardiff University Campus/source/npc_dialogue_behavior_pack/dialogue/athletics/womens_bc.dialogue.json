@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "womens_bc_welcome",
+				"npc_name": "Womens Basketball Rep",
+				"text": "Hello, we are Cardiff University's Womens basketball club.we have 4 teams: 1st, 2a, 2b and team 3. We are a Tier 1 club! We have all sorts of events and tournaments for all skill levels and look forward to helping people find a passion for basketball, find friends and just enjoy themselves!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator womens_bc_when"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator womens_bc_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator womens_bc_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/ladiesbasketball/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffuniladiesbasketball"
+					}
+				]
+			},
+			{
+				"scene_tag": "womens_bc_when",
+				"npc_name": "Womens Basketball Rep",
+				"text": "We have trainings for each of our teams weekly, as well as a development session each week if you don't really fancy fixtures and want to just play for fun! \n\nGames and socials are usually on Wednesdays, and vary in location, but all training sessions are run at the Talybont sports village. \n\nOur training schedule is on our SU page!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womens_bc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "womens_bc_cost",
+				"npc_name": "Womens Basketball Rep",
+				"text": "Since we are a Tier 1 club you have to pay the Tier 1 AU fee, and our membership is £46.00.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womens_bc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "womens_bc_socials",
+				"npc_name": "Womens Basketball Rep",
+				"text": "We have games, sessions and tournaments frequently as social events, as well as give it a gos. For details on other socials we may be running we post on our instagram page and SU page.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womens_bc_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

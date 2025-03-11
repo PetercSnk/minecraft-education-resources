@@ -1,0 +1,67 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "sailing_welcome",
+				"npc_name": "Sailing Club Rep",
+				"text": "Are you interested in sailing, whether as a complete beginner or an experienced sailor? The Cardiff University Sailing Club is one of the largest, friendliest, and most inclusive clubs in the Athletic Union, and we welcome everyone! We aim to run sessions every Wednesday afternoon and weekends, weather permitting.\n\nWe offer various sailing opportunities, team racing, yachting and club sailing. ",
+				"buttons": [
+					{
+						"name": "When are meetings?"
+					},
+					{
+						"name": "How much is it?"
+					},
+					{
+						"name": "Kind of socials?"
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/sailing/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunisailing"
+					}
+				]
+			},
+			{
+				"scene_tag": "sailing_meetings",
+				"npc_name": "Sailing Club Rep",
+				"text": "Our main sailing sessions are every Wednesday afternoon, with additional sessions on weekends depending on the weather. We ensure a variety of sessions that cater to different skill levels and interests, from competitive team racing to leisurely sails.\n\nFor further information visit our webpage and social media sites.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator sailing_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "sailing_cost",
+				"npc_name": "Sailing Club Rep",
+				"text": "We have three different levels of membership with differing costs.\n\nStandard Membership: £80.00\nAffiliate Membership: £100.00\nErasmus/Half Term Membership: £50.00\n\nThese memberships provide access to our sailing sessions, equipment, and social events.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator sailing_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "sailing_socials",
+				"npc_name": "Sailing Club Rep",
+				"text": "When we are off the water, we host weekly socials every Wednesday with great themes and various fancy-dress nights. These socials are a fantastic way to meet fellow sailors and enjoy a mid-week break. For more information about our socials, contact our Social Secretaries.\n\nFor any general enquiries, you can contact our President or Vice President.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator sailing_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

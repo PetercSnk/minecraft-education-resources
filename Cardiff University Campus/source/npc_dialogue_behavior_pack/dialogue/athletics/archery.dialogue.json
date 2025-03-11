@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "archery_welcome ",
+				"npc_name": "Archery Club Rep",
+				"text": "At Cardiff University Archery we cater to the casual archer or the highly competitive to come shoot for the enjoyment and for the social aspect. We aim to help everyone improve at their own pace while also remaining competitive with other clubs and beating the competition.",
+				"buttons": [
+					{
+						"name": "When are meetings?",
+						"commands": ["/dialogue open @s @initiator archery_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator archery_cost"]
+					},
+					{
+						"name": "Kind of Socials?",
+						"commands": ["/dialogue open @s @initiator archery_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/archery/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cuac_cardiffarchery/"
+					}
+				]
+			},
+			{
+				"scene_tag": "archery_meetings",
+				"npc_name": "Archery Club Rep",
+				"text": "Our training schedule is subject to change, but available on our Instagram and Facebook pages. These pages also have updates on socials and competitions, but we have weekly sessions. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator archery_welcome "]
+					}
+				]
+			},
+			{
+				"scene_tag": "archery_cost",
+				"npc_name": "Archery Club Rep",
+				"text": "We have two levels of membership depending on your experience level due to the different requirements for each group. Experienced membership is £30, and beginner membership is £50.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator archery_welcome "]
+					}
+				]
+			},
+			{
+				"scene_tag": "archery_socials",
+				"npc_name": "Archery Club Rep",
+				"text": "We have all sorts of socials from pub nights and wild nights out, to bowling, mini-golf archery tag and much more. There are socials for everyone at all levels of wild. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator archery_welcome "]
+					}
+				]
+			}
+		]
+	}
+}

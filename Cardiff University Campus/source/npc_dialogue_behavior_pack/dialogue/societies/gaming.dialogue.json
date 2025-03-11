@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "gaming_welcome",
+				"npc_name": "Gaming Society Rep",
+				"text": "Cardiff’s Gaming Society aims to bring those with common interests in gaming together. We offer the chance to meet on a weekly basis where you can play some games and socialise along the way, be it through our many consoles or online on our Discord!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator gaming_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator gaming_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator gaming_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/computergaming/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffgaming/"
+					}
+				]
+			},
+			{
+				"scene_tag": "gaming_when_are_meetings",
+				"npc_name": "Gaming Society Rep",
+				"text": "We usually meet every Monday from 7:30pm in the SU! We also have occasional online games nights.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator gaming_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "gaming_how_much",
+				"npc_name": "Gaming Society Rep",
+				"text": "Our membership is £5.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator gaming_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "gaming_socials",
+				"npc_name": "Gaming Society Rep",
+				"text": "At our weekly social members usually play games like Smash Bros, Mario Kart, Wii Sports and more! Afterwards we head to the Taf for some chill drinks. \n\nIf you have a particular game or console you wanna play you can ask! We're able to see if it's in storage or if not buy it for the society.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator gaming_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "earth_welcome",
+				"npc_name": "Earth Society Rep",
+				"text": "Welcome to Cardiff university Earth and Ocean Sciences society! Join to take part in fun socials with course mates and all our members from across all year groups and disciplines. We look forward to welcoming you.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator earth_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator earth_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator earth_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/earth/"
+					}
+				]
+			},
+			{
+				"scene_tag": "earth_when_are_meetings",
+				"npc_name": "Earth Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator earth_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "earth_how_much",
+				"npc_name": "Earth Society Rep",
+				"text": "Our membership is £5.00 for the year!\n\nMembership benefits include: reduced entrance fee, priority booking for end of year summer ball as well as access to future trip and lecture opportunities and themed event nights. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator earth_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "earth_socials",
+				"npc_name": "Earth Society Rep",
+				"text": "Being a member opens access to our schools End of Year summer ball , future trip opportunities and much much more.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator earth_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

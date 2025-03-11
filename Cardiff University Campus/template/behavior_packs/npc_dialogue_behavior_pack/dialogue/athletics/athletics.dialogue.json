@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "athletics_welcome",
+				"npc_name": "Athletics Club Rep",
+				"text": "We are Cardiff University Athletics Club (CUAC)! From casual social runs to national championships to socials in the SU, we have something for you. Whether you are looking for a fun sports club, training for your next goal or want to compete at the highest level it would be great to have you along!",
+				"buttons": [
+					{
+						"name": "When are meetings?",
+						"commands": ["/dialogue open @s @initiator athletics_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator athletics_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator athletics_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/athletics/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffuniathletics"
+					}
+				]
+			},
+			{
+				"scene_tag": "athletics_socials",
+				"npc_name": "Athletics Club Rep",
+				"text": "WE host all sorts of events, club nights are iconic for a reason, and we'll be there. WE also do post-race pub trips, post-training pancakes, welfare events and so much more. Our social media is filled with what events we're running and when, as well as tickets being available on our SU page. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator athletics_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "athletics_cost",
+				"npc_name": "Athletics Club Rep",
+				"text": "Our standard membership is £30 for the year. There's also another membership if you are a member of another club and would like to represent us in competitions, as well as an erasmus membership, both at £14.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator athletics_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "athletics_meetings",
+				"npc_name": "Athletics Club Rep",
+				"text": "We have a variety of training schedules for each of our activites, and specific details are available on our webpage and the page for each of the activities. Our sessions are professionally coached and for information about our facilities see our webpage.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator athletics_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

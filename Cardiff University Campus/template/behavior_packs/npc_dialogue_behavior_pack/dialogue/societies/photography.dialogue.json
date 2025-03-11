@@ -1,0 +1,72 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "photography_welcome",
+				"npc_name": "Photography Society Rep",
+				"text": "Photography society is for everyone who loves taking photographs, whether it’s on their phone or professional camera!\n\nThe society aims to help improve students’ photography skills as well as creating a fun space to socialise and meet new like-minded individuals. ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator photography_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator photography_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator photography_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/photosoc/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cuphotosoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "photography_when_are_meetings",
+				"npc_name": "Photography Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our instagram.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator photography_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "photography_how_much",
+				"npc_name": "Photography Society Rep",
+				"text": "Our membership is £3.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator photography_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "photography_socials",
+				"npc_name": "Photography Society Rep",
+				"text": "Socials include: Photo walks around Cardiff (and further afield!), Talent-building workshops, Themed competitions, and standard Socials.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator photography_welcome"]
+
+					}
+				]
+			}
+		]
+	}
+}

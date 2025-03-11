@@ -1,0 +1,31 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "buying_2_main",
+				"npc_name": "Co-op Staff",
+				"text": "I hope you're having a good time looking around. Would you like to buy something? We have many things available.\n\nWatermelon -> 1 Gold Ingot\nFlint and Steel -> 2 Gold Ingots\nApple -> 1 Gold Ingot",
+				"buttons": [
+					{
+						"name": "Buy Flint&Steel",
+						"commands": ["/give @initiator[hasitem={item=gold_ingot,quantity=2..}] flint_and_steel", "clear @initiator gold_ingot 0 2", "/dialogue open @s @initiator[hasitem={item=gold_ingot,quantity=..0}] buying_2_failed"]
+					},
+					{
+						"name": "Buy Watermelon",
+						"commands": ["/give @initiator[hasitem={item=gold_ingot,quantity=1..}] melon_slice", "clear @initiator gold_ingot 0 1", "/dialogue open @s @initiator[hasitem={item=gold_ingot,quantity=..0}] buying_2_failed"]
+					},
+					{
+						"name": "Buy Apple",
+						"commands": ["/give @initiator[hasitem={item=gold_ingot,quantity=1..}] apple", "clear @initiator gold_ingot 0 1", "/dialogue open @s @initiator[hasitem={item=gold_ingot,quantity=..0}] buying_2_failed"]
+					}
+				]
+			},
+			{
+				"scene_tag": "buying_2_failed",
+				"npc_name": "Co-op Staff",
+				"text": "It looks like you do not have the money for that item. We are in the SU, so I'm sure if you need some support there is staff available. Now that I think of it, there is a Student Advice centre on the third floor, maybe you should go there since you're running low on money."
+			}
+		]
+	}
+}

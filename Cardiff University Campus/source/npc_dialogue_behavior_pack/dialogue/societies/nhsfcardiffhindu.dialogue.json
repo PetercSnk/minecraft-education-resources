@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "nhsfcardiffhindu_welcome",
+				"npc_name": "NHSF Cardiff Hindu Society Rep",
+				"text": "NHSF Cardiff Hindu Society believes in providing every member with a unique chance to engage their university experience with Hindu culture in a social, educational & spiritual way, whilst promoting unity amongst the Hindu youths and other cultural/spiritual backgrounds.\n\nWe seek to educate our members in Hindu and Indian culture. We are passionate about Sewa, and hope to do lots of charity events. We want to make a positive difference to the Hindu community and an equally positive difference to the local Cardiff community at large.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator nhsfcardiffhindu_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator nhsfcardiffhindu_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator nhsfcardiffhindu_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/hindu/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/nhsf_cardiff/"
+					}
+				]
+			},
+			{
+				"scene_tag": "nhsfcardiffhindu_when_are_meetings",
+				"npc_name": "NHSF Cardiff Hindu Society Rep",
+				"text": "We meet fortnightly for Aarti. Specific date and times for events can be found on our SU page and our social media.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator nhsfcardiffhindu_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "nhsfcardiffhindu_how_much",
+				"npc_name": "NHSF Cardiff Hindu Society Rep",
+				"text": "Our membership is £6.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator nhsfcardiffhindu_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "nhsfcardiffhindu_socials",
+				"npc_name": "NHSF Cardiff Hindu Society Rep",
+				"text": "We have a range of dynamic events and activities, including regional and national sports competitions, Dinners, dances, discussions, debates, Sewa days (charity), and Regular Aarti’s.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator nhsfcardiffhindu_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

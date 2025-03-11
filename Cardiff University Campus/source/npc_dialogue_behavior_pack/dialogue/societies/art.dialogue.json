@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "art_welcome",
+				"npc_name": "Art Society Rep",
+				"text": "We are a friendly and relaxed group always excited to welcome new members! Whatever your ability, experience, style or interest, there will be something for you at Cardiff University Art Society!\n\nEach session will be unique and explore a variety of different mediums, styles and themes, to allow members to learn and experience new things!\n\nWe always strive to create a welcoming atmosphere where people can have a laugh and engage with creativity!\n",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator art_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator art_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator art_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/art/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.facebook.com/CardiffArtSoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "art_when_are_meetings",
+				"npc_name": "Art Society Rep",
+				"text": "We usually meet weekly, but specific date and times for socials can be found on our SU page and our Instagram.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator art_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "art_how_much",
+				"npc_name": "Art Society Rep",
+				"text": "Our membership is £3.00 for the year! \n\nWe do plan to organise affordable trips to various locations, and we can provide special art packs available to buy, with every art medium you may need!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator art_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "art_socials",
+				"npc_name": "Art Society Rep",
+				"text": "Our weekly sessions will vary from life-drawing, to Bob Ross paint-a-longs, group projects and themed art, eg. artist-based, time-themed\n\nWe plan to organise affordable trips to various locations eg. museums, galleries and exhibitions, including outdoor settings for some classes.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator art_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

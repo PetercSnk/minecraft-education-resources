@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "feminist_welcome",
+				"npc_name": "Feminist Society Rep",
+				"text": "The Feminist Society welcomes members of all genders who believe in and advocate for gender equality. We utilise our Instagram to advertise upcoming events, protests and some suggested readings.\n\nWe aim to be as intersectional as possible, considering feminism in relation to race, social class, disability and LGBTQ+ issues. ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator feminist_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator feminist_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator feminist_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/feminist/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/Cufeminists/"
+					}
+				]
+			},
+			{
+				"scene_tag": "feminist_when_are_meetings",
+				"npc_name": "Feminist Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator feminist_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "feminist_how_much",
+				"npc_name": "Feminist Society Rep",
+				"text": "Our membership is £6.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator feminist_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "feminist_socials",
+				"npc_name": "Feminist Society Rep",
+				"text": "We hold regular, casual meetings that provide a safe space to discuss  our own experiences of the patriarchy, as well as doing fun activities like coffee mornings, trips and alcohol-based socials.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator feminist_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

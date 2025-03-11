@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "dancesport_welcome",
+				"npc_name": "Dancesport Club Rep",
+				"text": "Are you interested in learning ballroom, Latin, or salsa dancing? The Cardiff University Dancesport Club is the only society at Cardiff University offering lessons in all three styles for all abilities! Whether you're a complete beginner or an advanced dancer, we have something for you.\n\nOur club is dedicated to creating a friendly and supportive atmosphere where every dancer can feel comfortable and welcome. We offer high-quality lessons led by our excellent coaches, including Sean Perry, Ella Perry, and Gustav Skovbon for Ballroom and Latin, and Andy Witt for Salsa. Our competitive team is highly successful, competing across the UK university circuit, and we welcome dancers of all levels to join in competitions.",
+				"buttons": [
+					{
+						"name": "When are meetings?",
+						"commands": ["/dialogue open @s @initiator dancesport_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator dancesport_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator dancesport_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/dancesport/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cudancesport"
+					}
+				]
+			},
+			{
+				"scene_tag": "dancesport_meetings",
+				"npc_name": "Dancesport Club Rep",
+				"text": "Our classes are held regularly throughout the week on Thursdays, Saturdays and Mondays for different types of dance. For full information visit our webpage. \nClasses are divided into Beginner, Novice, and Open Step levels, with Open Step covering all levels from pre-intermediate and above. We also offer practice spaces for additional training.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator dancesport_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "dancesport_cost",
+				"npc_name": "Dancesport Club Rep",
+				"text": "We offer several membership options to suit different interests and levels of commitment:\n\nFull Year Membership: £40.00\nSocial Membership: £15.00\nOffbeat Membership: £5.00\n\nThese memberships provide access to our lessons, practice spaces, and social events.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator dancesport_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "dancesport_socials",
+				"npc_name": "Dancesport Club Rep",
+				"text": "Our club isn't just about dancing; we also have a vibrant social scene. Follow us on Facebook and Instagram (@cudancesport) for updates on classes, competitions, photos, and social events. Every year, we proudly fundraise for a charity of our choice.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator dancesport_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

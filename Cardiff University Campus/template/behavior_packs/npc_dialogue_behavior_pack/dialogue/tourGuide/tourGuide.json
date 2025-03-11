@@ -1,0 +1,39 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "tourGuide0",
+				"npc_name": "Guide",
+				"text": "Hi there! Where would you like to go? The available locations are ABACWS, Student Union, Center of Student Life, Main Building, Alexandra Gardens, and Glamorgan",
+				"buttons": [
+					{
+						"name": "ABACWS",
+						"commands": ["tp @initiator -126 -60 211"]
+					},
+					{
+						"name": "SU",
+						"commands": ["tp @initiator -120 -60 45"]
+					},
+					{
+						"name": "CSL",
+						"commands": ["tp @initiator -12 -60 60"]
+					},
+					{
+						"name": "Main Building",
+						"commands": ["tp @initiator 197 -60 69"]
+					},
+                    			{
+						"name": "The Gardens",
+						"commands": ["tp @initiator 255 -60 -3"]
+					},
+                    			{
+						"name": "Glamorgan",
+						"commands": ["tp @initiator 379 -60 -52"]
+					}
+                ]	
+        	}
+    	]
+	}
+}
+	

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "sri_lankan_welcome",
+				"npc_name": "Sri Lankan Society Rep",
+				"text": "Cardiff Sri Lankan society is a vibrant and inclusive community that celebrates the culture of Sri Lanka, whether you are a Sri Lankan student or someone eager to explore the beauty of the culture you are welcome!",
+				"buttons": [
+					{
+						"name": "When do you meet",
+						"commands": ["/dialogue open @s @initiator sri_lankan_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator sri_lankan_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator sri_lankan_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/sri-lankan-society/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/cardiffsrilankansoc"
+					}
+				]
+			},
+			{
+				"scene_tag": "sri_lankan_when_are_meetings",
+				"npc_name": "Sri Lankan Society Rep",
+				"text": "We meet regularly to do activities on various days of the week, and all of our socials are posted on our social media with tickets available on our SU page.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator sri_lankan_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "sri_lankan_socials",
+				"npc_name": "Sri Lankan Society Rep",
+				"text": "Our socials consist of pot lucks, quiz nights, karaoke nights, dinners, balls and more!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator sri_lankan_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "sri_lankan_how_much",
+				"npc_name": "Sri Lankan Society Rep",
+				"text": "Our membership is £4.00, but most events will still require tickets, even for free events due to limited capacity, although paid events are often discounted for members. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator sri_lankan_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

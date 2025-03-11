@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "NPC Dialogue Behavior Pack",
+        "description": "Behavior pack containing NPC dialogue for the Cardiff University world",
+        "version": [1, 0, 1],
+        "min_engine_version": [1, 20, 0],
+        "uuid": "6555df28-43a6-4b35-96b3-444bb7f80973"
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "cdc07e12-31d6-4bff-a963-02856a687b17",
+            "version": [1, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors": ["Cardiff University"]
+    }
+}

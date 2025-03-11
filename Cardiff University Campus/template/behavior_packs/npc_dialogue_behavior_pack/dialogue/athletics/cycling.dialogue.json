@@ -1,0 +1,71 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "cycling_welcome",
+				"npc_name": "Cycling Club Rep",
+				"text": "Is cycling something you've always wanted to try? Are you an aspiring Geraint Thomas or Laura Kenny? Looking to have a good time here at Cardiff University?\n\nIf you answered yes to any of the above questions then you’ve come to the right place! Here at Cardiff University Road Cycling Team (CURCT), there is something for everyone!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator cycling_meetings"]
+
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator cycling_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator cycling_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/cycling/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunicycling"
+					}
+				]
+			},
+			{
+				"scene_tag": "cycling_socials",
+				"npc_name": "Cycling Club Rep",
+				"text": "We are also known for our 'out-of-this-world socials', we have events such as pub crawls and trips, club  nights, christmas and end of year meals, a 'tour of cathays' and more! Socials as bowling, go-karting and more are also organised throughout the year. Our socials facebook group has all sorts of information about our events.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cycling_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cycling_cost",
+				"npc_name": "Cycling Club Rep",
+				"text": "Our standard membership is £40, while our Erasmus/Half-year membership is £20, we have a fresher's membership of £35 as well!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cycling_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cycling_meetings",
+				"npc_name": "Cycling Club Rep",
+				"text": "We have weekly sessions at Maindy Outdoor Velodrome and cater to all abiilities. Our Wednesday slot suns from 2-5 pm and are split into three sessions. Casuals, Skills/Bikeability and Advanced training. We also have a Friday 5-6pm session aimed at advanced riders. \n\nWe also have Sunday rides each week lead by a ride leader and often including a cafe stop.\n\nFor full details and any updates to our schedule see our webpage!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cycling_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

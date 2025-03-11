@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "midwifery_welcome",
+				"npc_name": "Midwifery Society Rep",
+				"text": "Welcome to everyone coming to the MidSoc SU website page, we are delighted you are interested in joining our society! The Cardiff Midwifery Society (MidSoc) is a group of Student Midwives looking to connect with each other, have fun, learn more about key topics in health and matenrity care, and support one another through this crazy, beautiful journey.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator midwifery_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator midwifery_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator midwifery_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/midwifery/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffmidsoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "midwifery_when_are_meetings",
+				"npc_name": "Midwifery Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator midwifery_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "midwifery_how_much",
+				"npc_name": "Midwifery Society Rep",
+				"text": "Our membership is £2.50 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator midwifery_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "midwifery_socials",
+				"npc_name": "Midwifery Society Rep",
+				"text": "We host charity and educational events, as well as seasonal specific events like our Christmas get together and Summer ball. For full details, have a look at our social media pages.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator midwifery_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

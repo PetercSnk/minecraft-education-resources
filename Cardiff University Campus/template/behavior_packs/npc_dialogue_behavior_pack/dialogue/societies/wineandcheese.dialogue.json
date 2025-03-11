@@ -1,0 +1,73 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "wineandcheese_welcome",
+				"npc_name": "Wine and Cheese Society Rep",
+				"text": "Welcome to the Cardiff University Wine and Cheese Society!\n\nAs a sponsored youth group, we will be hosting regular events all over Cardiff to explore all of the fun that the worlds of wine and cheese have to offer. Whether you are an brie lover or prefer the classic cheddar, there is something for everyone.\n\nNo previous experience in wine tasting is required, most of the time we will only talk a little bit about the wine and focus on the most important thing… Having a great time!\n\n\n",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator wineandcheese_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator wineandcheese_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator wineandcheese_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/21689/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cu.wineandcheese/"
+					}
+				]
+			},
+			{
+				"scene_tag": "wineandcheese_when_are_meetings",
+				"npc_name": "Wine and Cheese Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator wineandcheese_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "wineandcheese_how_much",
+				"npc_name": "Wine and Cheese Society Rep",
+				"text": "Our membership is £20.00 for both semesters and £10.00 for the second semester!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator wineandcheese_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "wineandcheese_socials",
+				"npc_name": "Wine and Cheese Society Rep",
+				"text": "We are working with numerous restaurants, fromageries and wine shops to give our members the best possible experience at the best possible price. Our tastings will vary in size, formality and theme; however, we guarantee that you will have a great time. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator wineandcheese_welcome"]
+
+					}
+				]
+			}
+		]
+	}
+}

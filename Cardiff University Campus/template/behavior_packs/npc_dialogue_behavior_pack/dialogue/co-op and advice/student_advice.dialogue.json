@@ -1,0 +1,29 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "student_advice_welcome",
+				"npc_name": "Staff Member",
+				"text": "Hello, welcome to student advice. We are here for many things, but one of the most frequent things we help with is finances. \n\nIf you need financial assistance, we can guide you through the available student loan options. However, it's crucial to understand the details of borrowing and the consequences that come with it. We can provide you with all the necessary information to make informed decisions about your finances.",
+				"buttons": [
+					{
+						"name": "More Information",
+						"commands": ["/dialogue open @s @initiator student_advice_more"]
+					}
+				]
+			},
+			{
+				"scene_tag": "student_advice_more",
+				"npc_name": "Staff Member",
+				"text": "\nStudent Advice at Cardiff University provides free, confidential, and independent guidance to students. This service helps with a variety of issues, including academic, financial, and personal concerns. The team empowers students with objective information, explaining their options so they can make informed decisions. They also support students through university disciplinary and regulatory procedures, and champion student welfare through campaigns and workshops.\n\nHow to Contact Student Advice:\n\nEmail: Reach out to the Student Advice team at advice@cardiff.ac.uk.\n\nPhone: Call +44 (0)29 2078 1410 for direct assistance.\n\nIn Person: Visit the Student Advice office located in the Cardiff University Students' Union, open weekdays from 9:30 AM to 4:30 PM.\n\nFor more detailed information and resources, you can visit the website by clicking on Student Advice below. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator student_advice_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

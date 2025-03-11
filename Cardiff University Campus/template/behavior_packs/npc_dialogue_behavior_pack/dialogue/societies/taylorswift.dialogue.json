@@ -1,0 +1,73 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "taylorswift_welcome",
+				"npc_name": "Taylor Swift Society Rep",
+				"text": "The Taylor Swift Society brings together all fans that get together and have a marvelous time! Be it putting on our detective glasses to figure out Easter eggs and digging for the number 13 in music videos or coming together to just dance to the hits, we have it all to offer! \n\nWe’re happy, free, confused and lonely at the same time and would love to welcome you to our little committee so if this is something you are interested in, put on your cowboy boots and jump head first, fearless!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator taylorswift_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator taylorswift_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator taylorswift_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/taylorswift/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cu.swifties/"
+					}
+				]
+			},
+			{
+				"scene_tag": "taylorswift_when_are_meetings",
+				"npc_name": "Taylor Swift Society Rep",
+				"text": "We have regular study sessions at 6-8 pm on every other tuesday, but other than that we don't have a specific day for more 'taylor-ed' events, but specific date and times for socials we run can be found on our SU page and our Instagram.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator taylorswift_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "taylorswift_how_much",
+				"npc_name": "Taylor Swift Society Rep",
+				"text": "Our membership is £5.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator taylorswift_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "taylorswift_socials",
+				"npc_name": "Taylor Swift Society Rep",
+				"text": "We host a variety of socials. For full details, have a look at our social media pages.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator taylorswift_welcome"]
+
+					}
+				]
+			}
+		]
+	}
+}

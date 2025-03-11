@@ -1,0 +1,73 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "psychology_welcome",
+				"npc_name": "Psychology Society Rep",
+				"text": "Welcome to Cardiff University Psychology Society! We are an academic and social-minded society that aims to broaden the scope of what Psychology students (or anyone else interested in finding out more about psychology) see possible out of their time at university - both in terms of academia and connecting with others!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator psychology_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator psychology_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator psychology_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/6824/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cu_psychsoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "psychology_when_are_meetings",
+				"npc_name": "Psychology Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator psychology_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "psychology_how_much",
+				"npc_name": "Psychology Society Rep",
+				"text": "Our membership is £3.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator psychology_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "psychology_socials",
+				"npc_name": "Psychology Society Rep",
+				"text": "We run a range of frequent socials including Career events, Educational talks, Staff-student events, Coffee and Cake mornings, Movie nights, End of year Psychology ball, and Conference visits.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator psychology_welcome"]
+
+					}
+				]
+			}
+		]
+	}
+}

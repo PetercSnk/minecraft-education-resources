@@ -1,0 +1,81 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "general_society_information_welcome",
+				"npc_name": "Staff Member",
+				"text": "Hello! Societies can be confusing, so I am going to answer some important questions you may have about societies. Feel free to speak to the representatives the societies have here today for more specific information, but I can give you some general information!",
+				"buttons": [
+					{
+						"name": "Who can join?",
+						"commands": ["/dialogue open @s @initiator general_society_information_who_can_join"]
+					},
+					{
+						"name": "How do you join?",
+						"commands": ["/dialogue open @s @initiator general_society_information_how_to_join"]
+					},
+					{
+						"name": "Quiet Events?",
+						"commands": ["/dialogue open @s @initiator general_society_information_alcohol-free_or_quiet"]
+					},
+					{
+						"name": "Do you pay?",
+						"commands": ["/dialogue open @s @initiator general_society_information_cost"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Societies",
+                        			"url": "https://www.cardiffstudents.com/activities/societies/"
+					}
+				]
+			},
+			{
+				"scene_tag": "general_society_information_who_can_join",
+				"npc_name": "Staff Member",
+				"text": "Everyone can join societies, both people of the group a society is for and allies to/people interested in that group.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator general_society_information_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "general_society_information_alcohol-free_or_quiet",
+				"npc_name": "Staff Member",
+				"text": "The university makes a concerted effort to ensure that all societies have varied events including social and quiet events, including a sober week in which many societies are encouraged host alcohol free events.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator general_society_information_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "general_society_information_how_to_join",
+				"npc_name": "Staff Member",
+				"text": "As Cardiff University students you can sign in to the Student Union website in which you can purchase memberships for your societies of choice, societies that do not have a membership fee are done this way also, only with no charge. You can still purchase some events without membership and give it a go sessions will be available prior to purchasing membership.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator general_society_information_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "general_society_information_cost",
+				"npc_name": "Staff Member",
+				"text": "Each society may or may not charge a membership fee, however to join any society you must pay for the 'Guild of Societies' Membership. This is a one time payment of £8 as of June 2024, and essentially entitles you to join any society.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator general_society_information_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "squash_welcome",
+				"npc_name": "Squash Club Rep",
+				"text": "The Squash Club welcomes players of all standards, from complete beginners to pros, with something for everyone.\n\n \n\nWe have two women's teams and two men's teams with weekly matches in the BUCS and Squash Wales local leagues, therefore we provide plenty of match opportunities to help improve your game. However, a vast majority of our members join for the social aspect of the club. ",
+				"buttons": [
+					{
+						"name": "When do you meet? ",
+						"commands": ["/dialogue open @s @initiator squash_club_scene_2"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator squash_club_scene_3"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator squash_club_scene_4"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/squash/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunisquash"
+					}
+				]
+			},
+			{
+				"scene_tag": "squash_club_scene_2",
+				"npc_name": "Squash Club Rep",
+				"text": "Based at the Cardiff University Sports Training Village (Talybont) we run social club sessions once a week that is open to players of all levels. These informal sessions run on Sunday afternoons. We have a beginners session from 12-1 pm where there is basic coaching from committee members available, most weeks, to help improve your technique. Social courts sessions are then between 1-3 pm (as two, 1-hour sessions), to turn up and play with members of the club but no commitment is required. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator squash_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "squash_club_scene_3",
+				"npc_name": "Squash Club Rep",
+				"text": "Squash Club Social Membership £30.00\nSquash Club Team Membership £65.00\n\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator squash_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "squash_club_scene_4",
+				"npc_name": "Squash Club Rep",
+				"text": "Regular social events are organised for all members. These include alcoholic and non-alcoholic activities, so can range from fancy dress nights, to doubles competitions, awards nights and go-karting.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator squash_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

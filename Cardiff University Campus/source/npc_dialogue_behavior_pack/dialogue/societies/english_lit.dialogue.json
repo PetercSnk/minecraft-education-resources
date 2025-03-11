@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "english_lit_welcome",
+				"npc_name": "English Literature Society Rep",
+				"text": "The English literature society is the best way to get to know people doing English related degrees, and to get to know people in other years! As well as just meeting people passionate about literature.",
+				"buttons": [
+					{
+						"name": "When do you meet",
+						"commands": ["/dialogue open @s @initiator english_lit_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator english_lit_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator english_lit_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/englishlit/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/cardifflitsociety"
+					}
+				]
+			},
+			{
+				"scene_tag": "english_lit_when_are_meetings",
+				"npc_name": "English Literature Society Rep",
+				"text": "We meet regularly to do activities, and all of our socials are posted on our social media with tickets available on our SU page. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator english_lit_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "english_lit_socials",
+				"npc_name": "English Literature Society Rep",
+				"text": "Our socials consist of study sessions, nights out clubbing, date nights with books, quiz nights, charity nights and more!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator english_lit_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "english_lit_how_much",
+				"npc_name": "English Literature Society Rep",
+				"text": "Our membership is 5.00, but most events will still require tickets, even for free events due to limited capacity, although paid events are often discounted for members. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator english_lit_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "volleyball_welcome",
+				"npc_name": "Volleyball Club Rep",
+				"text": "We are a vibrant and welcoming community brought together by a common love of volleyball. Every year, new members of all experience levels join the club to develop their skills, improve fitness, and make friends through regular trainings and a variety of social events. Volleyball often becomes a lifelong hobby for our members, who continue playing around the world after graduation. Come to our Sunday beginner sessions and try it for yourself!\n\nOur Women's team competes in the premier division of BUCS, while our Men’s teams compete in divisions 1 and 2. Additionally, we participate in the Indoor and Beach Student Cups and the Varsity matches against Swansea University, which both our teams won this year.\n\n",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator volleyball_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator volleyball_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator volleyball_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/volleyball/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunivolleyball"
+					}
+				]
+			},
+			{
+				"scene_tag": "volleyball_meetings",
+				"npc_name": "Volleyball Club Rep",
+				"text": "We have beginner sessions on Sundays and intermediate sessions on Thursdays, both at the Talybont Sports Centre.\nOur team trainings take place on Tuesdays and involve intense training as well as experienced coaching.\n\nExpect fitness drills, games, and dedicated coaching by our Beginners' Coaches. We hold several recreational tournaments annually and organize a weekend trip to a tournament in Warwick, as well as our annual tour with Deepdish to Portugal.\n\nFor updates and extra information about our schedule visit our webpage!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator volleyball_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "volleyball_cost",
+				"npc_name": "Volleyball Club Rep",
+				"text": "We have four different variations of memberships, but Nnon-members are welcome to attend two sessions per year for £2 each. We welcome new members of all abilities throughout the year! Please attend a beginners session first or tryouts at the start of the term. Experienced players may be invited to team training.\n\nSocial Membership: £15.00\nBeginners Membership: £40.00\nIntermediate Membership: £50.00\nTeam Membership: £90.00\n\nMembership includes all training and socials, competition fees and transport to weekly matches for team players\n\nThe only significant non-included costs are clothing and occasional weekends away. Buying kit is mandatory only for team members. We are generously supported by Cardiff University Athletic Union to keep costs low.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator volleyball_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "volleyball_socials",
+				"npc_name": "Volleyball Club Rep",
+				"text": "We host weekly Wednesday socials at the SU and a variety of events such as laser tag, ice skating, and fancy dress parties. Our year starts with a fresher’s social and ends with a formal ball. We also have an annual competition weekend at Warwick University and the Deepdish tour to Portugal.\n\nStay updated on the latest news and events by following us on Facebook, TikTok, and Instagram. Social members are always welcome!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator volleyball_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

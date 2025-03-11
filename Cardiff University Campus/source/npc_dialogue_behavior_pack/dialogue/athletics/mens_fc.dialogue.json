@@ -1,0 +1,67 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "mens_fc_welcome",
+				"npc_name": "Mens FC Rep",
+				"text": "Cardiff University Football Club is one of the strongest, most competitive and most popular within the University, with members from a wide range of academic disciplines. \nThe 1st Xl competes with Swansea Univeristy in the annual Welsh Varsity Series.",
+				"buttons": [
+					{
+						"name": "When do you meet?"
+					},
+					{
+						"name": "How much is it?"
+					},
+					{
+						"name": "Kind of Socials?"
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/mensfootball/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunifc"
+					}
+				]
+			},
+			{
+				"scene_tag": "mens_fc_when",
+				"npc_name": "Mens FC Rep",
+				"text": "Our meeting and training schedules are updated frequently, you can come to the trial sessions or email us at MensAFC@Cardiff.ac.uk for information.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mens_fc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mens_fc_how_much",
+				"npc_name": "Mens FC Rep",
+				"text": "Our standard membership costs £70!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mens_fc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mens_fc_socials",
+				"npc_name": "Mens FC Rep",
+				"text": "We have meets to train, socials with the teams and society members to pubs or club trips. We often have informal games and of course attend Welsh Varsity annually.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mens_fc_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

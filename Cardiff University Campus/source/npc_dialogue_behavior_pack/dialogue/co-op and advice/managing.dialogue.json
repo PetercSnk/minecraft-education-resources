@@ -1,0 +1,17 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "managing_open",
+				"npc_name": "Managing",
+				"text": "Managing what you have on your own can be difficult, but it is also what most people do when struggling. We understand seeking help can be difficult.\n\nWhen managing what you have make sure to live within your means, even if this means not buying things when out with friends, only eating home cooked and cheap foods and even entirely cancelling plans. There are many free ways to socialise and prioritising security and safety over the convenience of eating out and expensive social activities is something to remember. ",
+				"buttons": [
+					{
+						"name": "Thank you!"
+					}
+				]
+			}
+		]
+	}
+}

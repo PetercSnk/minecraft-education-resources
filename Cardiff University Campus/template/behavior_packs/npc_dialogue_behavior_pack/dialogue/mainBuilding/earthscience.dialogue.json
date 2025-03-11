@@ -1,0 +1,48 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "earthscience_main",
+				"npc_name": "Earth and Environmental Sciences rep",
+				"text": "At cardiff we are committed to achieving the highest standards in research and education and to provide an environment where all staff and students can achieve their full potential to the benefit of society.\n\nWe offer a range of courses amongst leading Earth scientist involved in internationally recognised research programmes.",
+				"buttons": [
+					{
+						"name": "Undergrad info",
+						"commands": ["/dialogue open @s @initiator earthscience_undergrad"]
+					},
+					{
+						"name": "Postgrad info",
+						"commands": ["/dialogue open @s @initiator earthscience_postgrad"]
+					},
+					{
+						"name": "More info",
+						"url": "https://www.cardiff.ac.uk/earth-environmental-sciences"
+					}
+				]
+			},
+			{
+				"scene_tag": "earthscience_undergrad",
+				"npc_name": "NPC",
+				"text": "Our courses have a strong focus on fieldwork and practical experiences. We offer a wide range of modules and independant research projects allowing you to steer your own career direction in Earth and enviromental science. \n\nUndergraduate courses:\n- Enviromental Geography (Bsc with optional study abroad) (Msci)\n- Enviromental Gioscience (Bsc with optional study abroad) (Msci)\n- Environmental Sustainability Science (BSc)\n- Exploration Geology (Bsc with optional study abroad) (Msci)\n- Geology (Bsc with optional study abroad) (Msci)\n- Marine Geography (Bsc with optional study abroad) (Msci)\n- Physical Geography (Bsc with optional study abroad) (Msci)",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator earthscience_main"]
+					}
+				]
+			},
+			{
+				"scene_tag": "earthscience_postgrad",
+				"npc_name": "NPC",
+				"text": "Postgraduate taught\nOur master’s degree programmes address contemporary environmental, policy and research issues.We aim to extend your knowledge and provide the skills required to progress in your chosen area.\n\nMasters degree:\n- Water in a Changing World (MSc)\n- Environmental Hazards (MSc)",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator earthscience_main"]
+					}
+				]
+			}
+		]
+	}
+}

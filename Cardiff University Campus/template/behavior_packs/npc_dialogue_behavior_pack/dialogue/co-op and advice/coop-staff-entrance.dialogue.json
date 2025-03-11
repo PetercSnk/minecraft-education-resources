@@ -1,0 +1,14 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": 
+	{
+		"scenes": 
+			[
+			{
+				"scene_tag": "coop_staff_entrance_welcome",
+				"npc_name": "Staff Member",
+				"text": "Welcome to Coop!\n\nWe hope you're having a wonderful day. Here, you can find a variety of products, including toiletries, groceries, stationery, and much more.
+			}
+			]
+	}
+}

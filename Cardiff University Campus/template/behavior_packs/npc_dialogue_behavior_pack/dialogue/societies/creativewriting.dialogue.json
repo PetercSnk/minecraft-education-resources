@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "creativewriting_welcome",
+				"npc_name": "Creative Writing Society Rep",
+				"text": "Welcome to Cardiff University Creative Writing Society, the home for all things creative writing! We’re a new society with big plans. Our goal is to create a fun, productive, and encouraging community of creative writers within Cardiff University, and we hope you’ll join us!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator creativewriting_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator creativewriting_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator creativewriting_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/creativesociety/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffcws/"
+					}
+				]
+			},
+			{
+				"scene_tag": "creativewriting_when_are_meetings",
+				"npc_name": "Creative Writing Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our Instagram.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator creativewriting_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "creativewriting_how_much",
+				"npc_name": "Creative Writing Society Rep",
+				"text": "Our membership is £2.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator creativewriting_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "creativewriting_socials",
+				"npc_name": "Creative Writing Society Rep",
+				"text": "Meetings provide an open and judgement-free space to give and receive feedback on work, participate in writing contests, and hang out with other writers. \n\nWe also do lots of fun activities like attending open mic nights and book talks, cinema trips, and pub socials.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator creativewriting_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

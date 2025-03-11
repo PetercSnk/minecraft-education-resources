@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "hookedcrochet_welcome",
+				"npc_name": "Hooked (Crochet) Society Rep",
+				"text": "Hello and welcome to the official page of Cardiff Hooked Society! This is the society for anyone who likes to get creative and enjoys crocheting or knitting, or wants to learn how to.\n\nWhether you're a pro hooker or just getting started, we welcome everyone, so we hope to see you very soon!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator hookedcrochet_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator hookedcrochet_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator hookedcrochet_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/27858/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffhookers/"
+					}
+				]
+			},
+			{
+				"scene_tag": "hookedcrochet_when_are_meetings",
+				"npc_name": "Hooked (Crochet) Society Rep",
+				"text": "We meet from 6 - 7.30 on Wednesday evenings, usually in the John Percival building. \n\nKeep an eye out on our Instagram @cardiffhookers to find out where we will be each week!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator hookedcrochet_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "hookedcrochet_how_much",
+				"npc_name": "Hooked (Crochet) Society Rep",
+				"text": "Our membership is £3.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator hookedcrochet_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "hookedcrochet_socials",
+				"npc_name": "Hooked (Crochet) Society Rep",
+				"text": "We run weekly session alongside an exciting calendar of socials which we're sure will have you \"Hooked\" in no time. For full details, have a look at our instagram!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator hookedcrochet_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

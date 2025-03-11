@@ -1,0 +1,51 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "borrowing_open",
+				"npc_name": "Borrow",
+				"text": "While student advice can help you financally manage in many ways, you can also borrow money. We can help you consider your options, types of loans and interest rates, but no matter how good of a loan you get, loans are not ideal.\n\nWe know that sometimes loans can be the most appropriate option, or even just feel like the only option, but loans are something that you need to pay back. No matter how much it helps, they can turn into a problem of itself if not considered properly and you cannot end up paying them back.",
+				"buttons": [
+					{
+						"name": "Other options?",
+						"commands": ["/dialogue open @s @initiator borrowing_other"]
+					},
+					{
+						"name": "Borrow",
+						"commands": ["/dialogue open @s @initiator borrowing_borrow"]
+					},
+					{
+						"name": "Thank you!"
+					}
+				]
+			},
+			{
+				"scene_tag": "borrowing_other",
+				"npc_name": "Borrow",
+				"text": "Speak to the other members of our team for more information about the other options, but when struggling for money you mostly have three options.\n\nTo borrow, as I am here to help with, to manage what you have on your own, or to seek support from us here at Student Advice on managing, jobs and more. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator borrowing_open"]
+					}
+				]
+			},
+			{
+				"scene_tag": "borrowing_borrow",
+				"npc_name": "Borrow",
+				"text": "For this loan, the interest rate is 1 gold a month, and you have up to a year to pay it back, but keep in mind that interest will keep adding up if you dont pay it back even marginally. You will get 10 gold. You can only take out this loan once. \n\nMake sure to consider your options before deciding to go for a loan. ",
+				"buttons": [
+					{
+						"name": "Borrow",
+						"commands": ["/give @initiator[tag=!loaned] gold_ingot 10", "/tag @initiator add loaned"]
+					},
+					{
+						"name": "No thanks",
+						"commands": ["/dialogue open @s @initiator borrowing_open"]
+					}
+				]
+			}
+		]
+	}
+}

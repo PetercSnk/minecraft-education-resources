@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": " mountain_biking_welcome",
+				"npc_name": "Mountain Biking Club Rep",
+				"text": "Are you a mountain biking enthusiast or just looking to explore the stunning trails South Wales has to offer? The Cardiff University Mountainbike Team (CUMT) is the perfect way to experience some of the best mountain biking in the UK. We cater to all levels of riders and have an exciting array of activities lined up for you.\n\nSouth Wales is renowned for its incredible mountain biking trails, and as a member of CUMT, you'll get to ride all the iconic trail centers as well as hidden local spots known only to seasoned riders. We offer a welcoming community where you can enhance your biking skills, enjoy the thrill of the trails, and make new friends.",
+				"buttons": [
+					{
+						"name": "When are meetings?",
+						"commands": ["/dialogue open @s @initiator  mountain_biking_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator  mountain_biking_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator  mountain_biking_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/mountainbike/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cumtcollective"
+					}
+				]
+			},
+			{
+				"scene_tag": " mountain_biking_meetings",
+				"npc_name": "Mountain Biking Club Rep",
+				"text": "We organize a variety of rides and trips to suit everyone's schedule:\nWeekly Rides: Local rides every Wednesday afternoon\nWeekend Trips: Exciting trips every weekend to various trail centers and local spots\nWeekend Away: Special weekend trips each term to explore more distant and challenging trails",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator  mountain_biking_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": " mountain_biking_cost",
+				"npc_name": "Mountain Biking Club Rep",
+				"text": "We offer two types of memberships:\n\nStandard Membership: £35.00\nSocial Membership: £10.00\n\nThese memberships provide access to our rides, trips, and social events. Please ensure you have a safe, working bike and wear a helmet for all rides.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator  mountain_biking_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": " mountain_biking_socials",
+				"npc_name": "Mountain Biking Club Rep",
+				"text": "Our social events are held every Wednesday and include both alcoholic and non-alcoholic activities, ensuring there's something for everyone. These events are a great opportunity to relax, share experiences, and build camaraderie with fellow riders.\n\nFor those interested in racing, we offer plenty of opportunities to get involved in inter-club races and BUCS competitions. Whether you're a seasoned racer or new to the competitive scene, we encourage you to participate and challenge yourself.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator  mountain_biking_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

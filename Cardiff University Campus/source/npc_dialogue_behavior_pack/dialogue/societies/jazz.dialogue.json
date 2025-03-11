@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "jazz_welcome",
+				"npc_name": "Jazz Society Rep",
+				"text": "We offer students the opportunity to perform, listen to, and appreciate live jazz music. \n\nWe run several ensembles that perform regularly throughout each academic year: an auditioned Big Band, a Jazz Orchestra, a Sax Choir, Womxn's Group and Cardiff University Singers in collaboration with Music Society.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator jazz_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator jazz_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator jazz_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/jazz/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/cardiffunijazzsoc"
+					}
+				]
+			},
+			{
+				"scene_tag": "jazz_when_are_meetings",
+				"npc_name": "Jazz Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator jazz_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "jazz_how_much",
+				"npc_name": "Jazz Society Rep",
+				"text": "Our membership is £10.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator jazz_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "jazz_socials",
+				"npc_name": "Jazz Society Rep",
+				"text": "Our socials include pub trip after ensemble rehearsal, going to gigs around Cardiff and other jazz concerts/festivals.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator jazz_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

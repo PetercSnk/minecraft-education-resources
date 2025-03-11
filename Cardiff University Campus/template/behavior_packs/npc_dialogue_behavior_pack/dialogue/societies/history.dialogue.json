@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "history_welcome",
+				"npc_name": "History Society Rep",
+				"text": "Here at HistorySoc we have a passion for history and historical trips as well as a number of different social events!\n\nIn previous years we have gone abroad to places like Berlin, Prague, Budapest, and Amsterdam as well as several day trips to places like local castles.\n\nIf trips are not your scene, we also hold a number of different history talks throughout the year local to Cardiff University that are accessible only to members.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator history_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator history_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator history_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/history/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cuhistorysoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "history_when_are_meetings",
+				"npc_name": "History Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator history_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "history_how_much",
+				"npc_name": "History Society Rep",
+				"text": "Our membership is £4.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator history_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "history_socials",
+				"npc_name": "History Society Rep",
+				"text": "If you are looking for more of a social gathering, we aim to put on several different socials, both drinking and non-drinking, a couple times a term. In past years we have done themes such as ‘Toga Toga’ and ‘1920’s’ for a fair amount of bar crawls in and around Cardiff.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator history_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

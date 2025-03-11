@@ -1,0 +1,48 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "geographyplanning_main",
+				"npc_name": "School of geography and planning",
+				"text": "As a school we believe that we are transforming places through critical thinking and public engagement.\n\nWe offer a comprehensive range of undergraduate, postgraduate taught, and postgraduate research courses, delivered by highly-rated experts. \nOur programmes integrate geographical interests with real-world applications, developing critical and practical skills for future careers. \nOur teaching is innovative, research-informed, and consistently ranked highly for quality.",
+				"buttons": [
+					{
+						"name": "Undergrad info",
+						"commands": ["/dialogue open @s @initiator geographyplanning_undergrad"]
+					},
+					{
+						"name": "Postgrad info",
+						"commands": ["/dialogue open @s @initiator geographyplanning_postgrad"]
+					},
+					{
+						"name": "More info",
+						"url": "https://www.cardiff.ac.uk/geography-planning"
+					}
+				]
+			},
+			{
+				"scene_tag": "geographyplanning_undergrad",
+				"npc_name": "NPC",
+				"text": "Our undergraduate course focus on the impacts of economic, social, political and cultural change on the built and natural enviroment.\n\nThese programmes develop students' understanding and ability to address issues in various policy domains, such as social justice, health, urban futures, housing, food justice, third world development, and economic regeneration. Excellent staff-student ratios ensure close and regular contact with dedicated experts.\n\nUndergraduate courses:\n- Human Geography (with Planning and/or a professional placement year)\n- Urban Planning and Development (with a professional placement year)\n",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator geographyplanning_main"]
+					}
+				]
+			},
+			{
+				"scene_tag": "geographyplanning_postgrad",
+				"npc_name": "NPC",
+				"text": "We offer a wide range of postgraduate taught programmes that address contemporary policy and research issues. These recognized by the academic and policy communities both domestically and internationally.\n\nOur postgraduate students are integral to the Master's Graduate School of City and Regional Planning, advancing intellectually and professionally.\n\nPostgraduate courses:\n- Enviroment and Development\n- International Planning and Development\n- International Planning and Urban Design\n- Social Science Research Methods\n- Spatial Planning and Development\n- Sustainability, Planning and Enviromental Policy \n- Transport and Planning\n- Urban and Regional Development\n- Urban Design\n\n97% of our postgraduate taught graduates were in employment, further study, or other activities 15 months after their course.\n",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator geographyplanning_main"]
+					}
+				]
+			}
+		]
+	}
+}

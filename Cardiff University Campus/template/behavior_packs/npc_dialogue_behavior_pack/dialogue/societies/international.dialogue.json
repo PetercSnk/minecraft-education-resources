@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "international_welcome",
+				"npc_name": "International Society Rep",
+				"text": "We are a culture-based society and we aim to bring together the students of the university from all over the world! We are open to all students no matter your culture or origins, and we want to help ensure that throughout your time at Cardiff you are able to find like-minded people who enjoy experiencing some of the diverse cultures of the world.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator international_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator international_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator international_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/28071/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cu_internationalstudents/"
+					}
+				]
+			},
+			{
+				"scene_tag": "international_when_are_meetings",
+				"npc_name": "International Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator international_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "international_how_much",
+				"npc_name": "International Society Rep",
+				"text": "Our membership is £5.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator international_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "international_socials",
+				"npc_name": "International Society Rep",
+				"text": "We will be hosting a variety of events such as: Cultural food nights, Karaoke Speed aquainting, Movie nights, Society collaborations, Picnics, Walks, Hikes, and Castle trips.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator international_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

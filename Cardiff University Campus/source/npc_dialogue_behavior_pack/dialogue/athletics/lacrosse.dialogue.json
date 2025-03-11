@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "lacrosse_welcome",
+				"npc_name": "Lacrosse Club Rep",
+				"text": "Are you interested in playing lacrosse, whether you're a complete beginner or an experienced player? The Cardiff University Lacrosse Club is one of the largest mixed clubs at the university, offering opportunities for everyone to learn, play, and enjoy this exciting sport.\n\nOur club boasts a diverse membership, from total beginners to international players. We have 4 women's teams, including the 1st team in the BUCS Premier South league, and the 2nd and 3rd teams in the BUCS Western Tier 2 league. Additionally, we have a development team that plays games against local universities. On the men's side, we have one team in the BUCS Premier South league and a beginner team that participates in friendly matches and tournaments like the Wales Lacrosse Freshers 6v6, where our men's team recently won.",
+				"buttons": [
+					{
+						"name": "When are meetings?",
+						"commands": ["/dialogue open @s @initiator lacrosse_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator lacrosse_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator lacrosse_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/lacrosse/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/Cardiffunilacrosse"
+					}
+				]
+			},
+			{
+				"scene_tag": "lacrosse_meetings",
+				"npc_name": "Lacrosse Club Rep",
+				"text": "Training sessions are held regularly and are a great way to meet new people, learn or improve your lacrosse skills, and boost your fitness. Specific times for training sessions will be posted on our social media pages, so make sure to follow us for the latest updates.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator lacrosse_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "lacrosse_cost",
+				"npc_name": "Lacrosse Club Rep",
+				"text": "We offer two types of memberships:\n\nErasmus Membership: £25.00\nStandard Membership: £40.00\n\nThese memberships grant access to training sessions, social events, and the opportunity to participate in matches and tournaments. Refunds are only available under special circumstances.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator lacrosse_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "lacrosse_socials",
+				"npc_name": "Lacrosse Club Rep",
+				"text": "Our socials are legendary and take place every Wednesday night, featuring games between all teams followed by a night out at YOLO. We also host regular sober socials, Christmas and Summer Balls, and interclub events. Our annual TOUR is a highlight, with recent destinations including tropical locations like Italy for a week of fun and lacrosse. We also participate in Varsity against Swansea University, a major event on our calendar where both our men's and women's teams recently won their 2023 Varsity Games",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator lacrosse_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "maths_welcome",
+				"npc_name": "Maths Society Rep",
+				"text": "Hi! We're the Mathematics Society here at Cardiff University. We aim to be the heart of the student experience in the School of Maths, but our membership is open to all and our events can benefit anyone in a STEM field!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator maths_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator maths_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator maths_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/maths/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffmathsoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "maths_when_are_meetings",
+				"npc_name": "Maths Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator maths_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "maths_how_much",
+				"npc_name": "Maths Society Rep",
+				"text": "Our membership is free!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator maths_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "maths_socials",
+				"npc_name": "Maths Society Rep",
+				"text": "We run a range of academic and social events throughout the year, to build a community and supplement your education outside the lecture theatre. We also host the annual Christmas and Summer formals, the hottest (and coldest) events in the Maths calendar!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator maths_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "anime_welcome",
+				"npc_name": "Anime Society Rep",
+				"text": "Cardiff Anime Society brings together anime and manga fans in a range of different ways.\n\nWe welcome anyone with an interest in anime or manga, or even just Japan and its culture; you do not need to be an avid fan to join, as we have members with all levels of knowledge about anime. We look forward to seeing you at our events!\n",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator anime_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator anime_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator anime_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/anime/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffanimesociety/"
+					}
+				]
+			},
+			{
+				"scene_tag": "anime_when_are_meetings",
+				"npc_name": "Anime Society Rep",
+				"text": "We run screenings every Friday of both movies and anime series, with members given the chance to vote on what is screened through our Discord!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator anime_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "anime_how_much",
+				"npc_name": "Anime Society Rep",
+				"text": "Our membership is £4.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator anime_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "anime_socials",
+				"npc_name": "Anime Society Rep",
+				"text": "We host workshops and gaming nights, as well as bigger events such as the MCM trip and seasonal events!\n\nFor full details, have a look at our SU page and instagram.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator anime_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

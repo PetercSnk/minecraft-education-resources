@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "cocktail_welcome",
+				"npc_name": "Cocktail Society Rep",
+				"text": "So, you want to know if Cocktail society is for you? You’re thinking of trying some new societies, or even just want to meet some new faces. I’ll let the cat out of the bag, that's what we're all about.\n\nCocktail society for us, is more of an excuse to host some super fun events and form some new friendships. Naturally, there will be both mocktails and cocktails at most of our events, but we also offer other options for those that have other preferences.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator cocktail_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator cocktail_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator cocktail_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/cocktailsociety/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cucocktailsoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "cocktail_when_are_meetings",
+				"npc_name": "Cocktail Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cocktail_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cocktail_how_much",
+				"npc_name": "Cocktail Society Rep",
+				"text": "Our membership is £20.00 for the year! This also includes a discount card!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cocktail_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cocktail_socials",
+				"npc_name": "Cocktail Society Rep",
+				"text": "We've run some really fun events which included: Pizza Nights, Casino Themed Parties, Cocktail Masterclasses, a Masquerade murder mystery, Xmas cocktail party, ABBA society collaboration disco, bowling, and more...",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cocktail_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

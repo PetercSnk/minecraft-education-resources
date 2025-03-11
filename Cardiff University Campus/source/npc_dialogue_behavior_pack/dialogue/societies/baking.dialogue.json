@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "baking_welcome",
+				"npc_name": "Baking Society Rep",
+				"text": "Love cake? Master in the kitchen? Consumed by GBBO fever? Enjoy the occasional cocktail night? Baking Society is the one for you!\n\nEveryone's welcome, whether you're a complete novice or an avid baker, and everyone comes from a variety of backgrounds and baking abilities. It's a great place to meet new people, taste new recipes, and improve your skills!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator baking_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator baking_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator baking_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/baking/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cubakingsoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "baking_when_are_meetings",
+				"npc_name": "Baking Society Rep",
+				"text": "We meet once a fortnight on a Monday evening for a bake-off-style competition.\n\nBefore each meeting, we will announce a theme (e.g. Halloween or bread week). You then bake something related on your own or as a team, and bring it along on the evening. \n\nEveryone tries all the bakes and votes for their favorite and at the end, three spoons are awarded, including the prestigious golden spoon. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator baking_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "baking_how_much",
+				"npc_name": "Baking Society Rep",
+				"text": "Our membership is £4.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator baking_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "baking_socials",
+				"npc_name": "Baking Society Rep",
+				"text": "In addition to our regular social, we have events such as coffee and cake mornings, bar & cocktail nights, themed socials, bake-alongs and baking classes!\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator baking_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

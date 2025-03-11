@@ -1,0 +1,35 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "buying_1_main",
+				"npc_name": "Co-op Staff",
+				"text": "Would you like to buy something? We have many things available.\n\nBread -> 1 Gold Ingot\nCooked Beef -> 2 Gold Ingot\nCooked Salmon -> 2 Gold Ingot\nCarrot -> 1 Gold Ingot",
+				"buttons": [
+					{
+						"name": "Buy Bread",
+						"commands": ["/give @initiator[hasitem={item=gold_ingot,quantity=1..}] bread", "clear @initiator gold_ingot 0 1", "/dialogue open @s @initiator[hasitem={item=gold_ingot,quantity=..0}] buying_1_failed"]
+					},
+					{
+						"name": "Buy Beef",
+						"commands": ["/give @initiator[hasitem={item=gold_ingot,quantity=2..}] cooked_beef", "clear @initiator gold_ingot 0 2", "/dialogue open @s @initiator[hasitem={item=gold_ingot,quantity=..0}] buying_1_failed"]
+					},
+					{
+						"name": "Buy Salmon",
+						"commands": ["/give @initiator[hasitem={item=gold_ingot,quantity=2..}] cooked_salmon", "clear @initiator gold_ingot 0 2", "/dialogue open @s @initiator[hasitem={item=gold_ingot,quantity=..0}] buying_1_failed"]
+					},
+					{
+						"name": "Buy Carrot",
+						"commands": ["/give @initiator[hasitem={item=gold_ingot,quantity=1..}] carrot", "clear @initiator gold_ingot 0 1", "/dialogue open @s @initiator[hasitem={item=gold_ingot,quantity=..0}] buying_1_failed"]
+					}
+				]
+			},
+			{
+				"scene_tag": "buying_1_failed",
+				"npc_name": "Co-op Staff",
+				"text": "It looks like you do not have the money for that item. We are in the SU, so I'm sure if you need some support there is staff available. Now that I think of it, there is a Student Advice centre on the third floor, maybe you should go there since you're running low on money."
+			}
+		]
+	}
+}

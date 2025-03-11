@@ -1,0 +1,32 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "seek_advice_open",
+				"npc_name": "Seek Advice",
+				"text": "One of the best options when struggling here at Cardiff Uni is talking to us here at Student Advice. You can talk to us here to get specialised advice based on your situation, background and resources that just isn't available in many other places. \n\nWe can help you with getting jobs, especially for jobs that fit your lifestyle, managing the money you have through different budgeting methods that suit whatever problem you're having with spending, and more. We are always here for you.",
+				"buttons": [
+					{
+						"name": "Student Mentors",
+						"commands": ["/dialogue open @s @initiator seek_advice_mentoring"]
+					},
+					{
+						"name": "Thank you!"
+					}
+				]
+			},
+			{
+				"scene_tag": "seek_advice_mentoring",
+				"npc_name": "Seek Advice",
+				"text": "As well as this at the start of the year you can sign up for student mentoring. This is a scheme we have where older students volunteer to run sessions and be a mentor to new students.\n\nThey will be a student in the same course as you, and they can provide help and advice on unique situations that you may not want to come to us with, as formal representatives of the university. They are just students like you who want to help you with your adjustment to university life.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator seek_advice_open"]
+					}
+				]
+			}
+		]
+	}
+}

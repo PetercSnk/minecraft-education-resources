@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "businessschool_welcome",
+				"npc_name": "Business School Society Rep",
+				"text": "Be a part of the Cardiff Business School Society and enhance your university experience! Whether you're studying at the Business School or have a keen interest in our courses, you're welcome to join our community!\n\nThis society will help you connect with Cardiff University peers and feel a sense of belonging! Join us to make the most of your university experience with valuable insights, connections and lots of fun!\n ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator businessschool_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator businessschool_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator businessschool_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/business/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffbusinesssociety/"
+					}
+				]
+			},
+			{
+				"scene_tag": "businessschool_when_are_meetings",
+				"npc_name": "Business School Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our Instagram.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator businessschool_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "businessschool_how_much",
+				"npc_name": "Business School Society Rep",
+				"text": "Our membership is £4.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator businessschool_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "businessschool_socials",
+				"npc_name": "Business School Society Rep",
+				"text": "We host thoughtfully planned events that complement your academics. From insightful guest talks to practical workshops, we offer more than just classroom learning. And, of course, you can look forward to lots of socials, including our annual balls! ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator businessschool_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

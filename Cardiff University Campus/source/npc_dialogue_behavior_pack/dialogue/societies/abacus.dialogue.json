@@ -1,0 +1,71 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "abacus_welcome",
+				"npc_name": "ABACUS Rep",
+				"text": "Hi, we are ABACUS, the Association of British And Chinese University Students. A society that  welcomes people of all nationalities to meet new people and get involved. For international students, we want to be a 'home away from home while for people from the UK, we want to be a gateway for you to experience Chinese and Far-Eastern culture!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator abacus_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator abacus_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator abacus_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/abacus/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/cardiffabacus"
+					}
+
+				]
+			},
+			{
+				"scene_tag": "abacus_when_are_meetings",
+				"npc_name": "ABACUS Rep",
+				"text": "We do not have a regular meeting time weekly, but we often have socials which we share on our SU page and our social medias.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator abacus_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "abacus_how_much",
+				"npc_name": "ABACUS Rep",
+				"text": "Our membership is £5.00, but most events will still require tickets, even for free events due to limited capacity, although paid events are often discounted for members. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator abacus_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "abacus_socials",
+				"npc_name": "ABACUS Rep",
+				"text": "Our socials consist of icebreakers, parties, dinners, balls, karaoke and clubbing, movie nights, sports and more! ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator abacus_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

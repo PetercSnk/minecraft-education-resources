@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "mena_welcome",
+				"npc_name": "Middle Eastern and North African Society Rep",
+				"text": "Welcome to Cardiff University’s first ever Middle Eastern and North African Society, better known as MENA Soc!\n\nWe plan on dedicating this society on celebrating all MENA cultures spanning across the Middle East and North Africa. We hope to teach but also captivate the blend of ancient history and modern dynamism.\n\nWe’re all looking forward to enjoying the year with you all!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator mena_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator mena_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator mena_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/mena/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/menasoc_cu/"
+					}
+				]
+			},
+			{
+				"scene_tag": "mena_when_are_meetings",
+				"npc_name": "Middle Eastern and North African Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mena_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mena_how_much",
+				"npc_name": "Middle Eastern and North African Society Rep",
+				"text": "Our membership is £3.00 for the year!\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mena_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mena_socials",
+				"npc_name": "Middle Eastern and North African Society Rep",
+				"text": "We host a variety of socials. For full details, have a look at our instagram page.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mena_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

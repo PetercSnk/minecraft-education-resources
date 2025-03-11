@@ -1,0 +1,51 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "athletics_general_welcome",
+				"npc_name": "Athletics Union Rep",
+				"text": "These are many of the clubs present in the Athletics Union. We have many more not here today, so you can look through the full list on our SU page. There's something for everyone to get you out there!\n\nMany of the societies mention an 'AU' or Athletics Union Membership, and more information on that is below, along with other types of memberships.\n\n",
+				"buttons": [
+					{
+						"name": "AU Membership",
+						"commands": ["/dialogue open @s @initiator athletics_general_membership"]
+					},
+					{
+						"name": "Other Memberships",
+						"commands": ["/dialogue open @s @initiator athletics_general_member_types"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/au/"
+					}
+				]
+			},
+			{
+				"scene_tag": "athletics_general_membership",
+				"npc_name": "v",
+				"text": "Our AU Membership is a one time fee to join any club in the Athletics Union. Clubs will charge their own membership cost, but to join the groups the AU membership must be purchased, but only once no matter how many clubs you join. \nIt is available from september.\n\nThe AU membership is £40 for a Tier 1 club, and £20 for a Tier 2, if you join a Tier 2 club but then want to join a Tier 1, don't worry, you only pay the difference. It will automatically be added to your first club membership purchase.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator athletics_general_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "athletics_general_member_types",
+				"npc_name": "Athletics Union Rep",
+				"text": "Some clubs will have social memberships, which are as described, they enable you to go to the social events of the club, but not the sports or fixture events. \n\nAn Erasmus membership is regarding international students, and any club offering an erasmus specific membership will have their own details regarding it.\n\nAn IMG membership is for 'Intra Mural Games' which is a recreational and competitive sports league for students and staff at the uni, you can create your own team with some friends and enter into a league.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator athletics_general_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

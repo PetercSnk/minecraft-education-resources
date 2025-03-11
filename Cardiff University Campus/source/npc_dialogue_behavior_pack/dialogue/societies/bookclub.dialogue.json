@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "bookclub_welcome",
+				"npc_name": "Book Club Society Rep",
+				"text": "Welcome to Book Club Society! We meet every week to discuss book-related topics. Our discussions are usually based around topics that anyone can get involved in. \n\nIf you want to be introduced to a rich variety of authors and genres, support literacy and educational charities, and if you enjoy reading and want to meet new people in a chilled environment, come along!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator bookclub_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator bookclub_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator bookclub_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/bookclub/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunibookclub/"
+					}
+				]
+			},
+			{
+				"scene_tag": "bookclub_when_are_meetings",
+				"npc_name": "Book Club Society Rep",
+				"text": "We meet every Tuesday from 6:00-7:00pm to discuss book-related topics, from favourite characters to worst film adaptations.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator bookclub_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "bookclub_how_much",
+				"npc_name": "Book Club Society Rep",
+				"text": "Our membership is £5.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator bookclub_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "bookclub_socials",
+				"npc_name": "Book Club Society Rep",
+				"text": "We host a variety of socials in addition to our weekly Tuesday one. For full details, have a look at our instagram.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator bookclub_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

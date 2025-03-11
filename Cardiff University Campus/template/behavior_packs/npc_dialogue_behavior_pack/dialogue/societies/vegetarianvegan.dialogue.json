@@ -1,0 +1,73 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "vegetarianvegan_welcome",
+				"npc_name": "Vegetarian & Vegan Society Rep",
+				"text": "Welcome to the Vegetarian and Vegan society!\n\nWhether you're interested in cutting out meat or dairy altogether, or want to find fellow veggie's in the university, then this society is for you.\n\nWe share cheap recipes and local news about new veggie places and products to keep our meals interesting and wallets full.\n\nWe welcome anyone with an interest, regardless of diet choices, so come join us for some animal-friendly fun!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator vegetarianvegan_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator vegetarianvegan_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator vegetarianvegan_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/vegetarian/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/CUVeggieSoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "vegetarianvegan_when_are_meetings",
+				"npc_name": "Vegetarian & Vegan Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our Instagram.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator vegetarianvegan_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "vegetarianvegan_how_much",
+				"npc_name": "Vegetarian & Vegan Society Rep",
+				"text": "Our membership is £1.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator vegetarianvegan_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "vegetarianvegan_socials",
+				"npc_name": "Vegetarian & Vegan Society Rep",
+				"text": "As a society we strive to discover Cardiff's finest vegetarian and vegan experiences with trips to various restaurants and events.\n\nWe are looking forward to planning amazing socials, most related to being vegan/veggie and others just to have fun together as a group of like minded friends. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator vegetarianvegan_welcome"]
+
+					}
+				]
+			}
+		]
+	}
+}

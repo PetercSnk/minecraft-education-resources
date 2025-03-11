@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "cavingandcanyoning_welcome",
+				"npc_name": "Caving & Canyoning Rep",
+				"text": "Whether you are an experienced caver, or completely new to the sport, CUCCC offers a unique experience unlike any other. Often compared to an underground assault course, a caving trip can involve short climbs, raging streamways, as well as tight passages which open up into enormous underground chambers. A trip could last several hours, and can be challenging, but is always fun!\n\nWe organise trips to some of the biggest and most beautiful caves all over the UK - we regularly cave in the Brecon Beacons and Mendips, and also offer some longer trips to North Wales, the Peak District and the Yorkshire Dales. These include both day trips and overnight stays with lots of caving and social opportunities! We also take part in national events for students cavers (CHECC) at least twice a year which gives lots more oppotunities.",
+				"buttons": [
+					{
+						"name": "When do you meet? ",
+						"commands": ["/dialogue open @s @initiator cavingandcanyoningclub_scene_2"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator cavingandcanyoningclub_scene_3"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator cavingandcanyoningclub_scene_4"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/caving/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cucavingclub"
+					}
+				]
+			},
+			{
+				"scene_tag": "cavingandcanyoningclub_scene_2",
+				"npc_name": "Caving & Canyoning Rep",
+				"text": "We meet every Tuesday",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cavingandcanyoning_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cavingandcanyoningclub_scene_3",
+				"npc_name": "Caving & Canyoning Rep",
+				"text": "Caving & Canyoning Club Standard Membership £25.00\nCaving & Canyoning Club Erasmus Membership £15.00\nCaving & Canyoning Club Half-Year Membership £12.50\n\nKit Hire Full (Weekend) £5.00\nKit Hire Half (Day) £1.50\nKit Hire Half (Weekend) £2.50\nKit Hire Full (Day) £3.00\n\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cavingandcanyoning_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cavingandcanyoningclub_scene_4",
+				"npc_name": "Caving & Canyoning Rep",
+				"text": "We meet every Tuesday at The Taf at 8PM, as well as other exciting socials including film nights and nights out (often themed!)",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cavingandcanyoning_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

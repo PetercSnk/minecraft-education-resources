@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "boxing_welcome",
+				"npc_name": "Boxing Club Rep",
+				"text": "Haven’t done any boxing before? No problem. Most of our members begin with no experience at all. Beginners are welcome. Most of our ‘All abilities’ and ‘Beginners’ sessions are filled with eager beginners. We’ll teach you boxing technique; help you get fit and healthy and can take you as far as you’d like to go.\n\nWant to become the next champion? You’re in the right place. We have trained English, Welsh, and university national champions. We have elite training sessions for advanced boxers to thrive.\n\nNot keen on the idea of being punched? No worries. There’s no requirement to join in on contact / sparring / matches\nJoining to make friends and have fun? Welcome! We have socials almost every week.",
+				"buttons": [
+					{
+						"name": "When do you meet? ",
+						"commands": ["/dialogue open @s @initiator boxing_club_scene_2"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator boxing_club_scene_3"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator boxing_club_scene_4"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/boxing/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.facebook.com/cardiffuniboxing"
+					}
+				]
+			},
+			{
+				"scene_tag": "boxing_club_scene_2",
+				"npc_name": "Boxing Club Rep",
+				"text": "Tuesday - All members - 1930-2100\nWednesday - Advanced - 1230-1600\nThursday - All members - 1800-1930\nSunday - Sparring - 1200-1400\n\nPlease refer to the Instagram page for changes in training times, the schedule above is as of June 2024.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator boxing_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "boxing_club_scene_3",
+				"npc_name": "Boxing Club Rep",
+				"text": "AU (Athletic Union) membership: £35. Boxing club membership: £45 annual.\n\nFor any other memberships, including the pricing for alumni, staff or non-students, contact us on instagram.\n\nAll training sessions cost £2 - Cash on the door or booked online",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator boxing_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "boxing_club_scene_4!",
+				"npc_name": "Boxing Club Rep",
+				"text": "We have socials almost every week, see on our facebook for more information!",
+				"buttons": [
+					{
+						"name": "Thank you",
+						"commands": ["/dialogue open @s @initiator boxing_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

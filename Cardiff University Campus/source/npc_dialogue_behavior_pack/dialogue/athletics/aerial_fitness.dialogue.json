@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "aerial_fitness_welcome",
+				"npc_name": "Aerial Fitness Club Rep",
+				"text": "Are you interested in trying something new and exciting while improving your fitness? Cardiff University Aerial Fitness offers pole and aerial hoop fitness classes in a safe, relaxed, and social environment. Our classes help you enhance your strength, flexibility, coordination, confidence, and self-esteem in a supportive atmosphere.\n\nWe cater to various styles, including classic, lyrical, and contemporary, to suit everyone's individual taste. Our classes are designed for all skill levels, from beginners to advanced. We also provide free fitness classes weekly, such as flow (with or without heels), floorwork, flexibility, strength and conditioning, and various workshops to broaden your horizons.",
+				"buttons": [
+					{
+						"name": "When are meetings?",
+						"commands": ["/dialogue open @s @initiator aerial_fitness_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator aerial_fitness_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator aerial_fitness_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/cups/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cuaerialfitness"
+					}
+				]
+			},
+			{
+				"scene_tag": "aerial_fitness_meetings",
+				"npc_name": "Aerial Fitness Club Rep",
+				"text": "Our classes are held regularly throughout the week, providing a variety of sessions to fit different schedules and preferences. Details about specific class times and locations can be found on our Instagram page (@cuaerialfitness) and our Facebook group.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator aerial_fitness_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "aerial_fitness_cost",
+				"npc_name": "Aerial Fitness Club Rep",
+				"text": "We offer two types of memberships:\n\nStandard Membership: £25.00\nSocial Membership: £5.00\n\nThese memberships give you access to our classes, workshops, and social events. Refunds are considered individually under unprecedented and unavoidable circumstances at the discretion of the Treasurer and President.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator aerial_fitness_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "aerial_fitness_socials",
+				"npc_name": "Aerial Fitness Club Rep",
+				"text": "Our club hosts regular socials with various themes and activities, including both alcoholic and non-alcoholic options like pub quizzes, study socials, and group park runs. We also organize fabulous photoshoots with professional aerial photographers, creating a supportive and inclusive atmosphere for all members.\n\nMembers have the opportunity to showcase their skills in competitions like SWPC, the Welsh Dragon Pole Competition, IUHAC (hoop), and Pole and Hoop Varsity. We also participate in showcases and charity events, aiming to raise as much as we can for causes we are passionate about.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator aerial_fitness_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

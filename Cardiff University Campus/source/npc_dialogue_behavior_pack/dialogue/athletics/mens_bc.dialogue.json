@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "mens_bc_welcome",
+				"npc_name": "Mens Basketball Rep",
+				"text": "We are the Men's Basketball Team here at Cardiff Uni.\n\nBasketball is a family, and the Cardiff University Men's Basketball Club exists to provide all our members with the best possible experience basketball can offer, regardless of individual skill level or background, both on and off the court.\n\nWe currently have 3 competing teams; 2 of which participate in the BUCS leagues, alongside another team in the Cardiff Basketball League.\n\nWe represent Cardiff Uni and compete at the highest level while giving players of every level the opportunity to contribute.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator mens_bc_when"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator mens_bc_cost"]
+					},
+					{
+						"name": "Kind of Socials?",
+						"commands": ["/dialogue open @s @initiator mens_bc_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/mensbasketball/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunibasketball"
+					}
+				]
+			},
+			{
+				"scene_tag": "mens_bc_when",
+				"npc_name": "Mens Basketball Rep",
+				"text": "Our BUCS fixtures are played on Wednesdays, while our CBL team play in their Sunday training slot, and away games vary.\n\nOur training schedule is available at our SU page, and training takes place at the Talybont Sports Complex.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mens_bc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mens_bc_cost",
+				"npc_name": "Mens Basketball Rep",
+				"text": "We have two types of membership at different prices:\n\nStandard Membership: £50.00\nErasmus Membership: £25.00",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mens_bc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mens_bc_socials",
+				"npc_name": "Mens Basketball Rep",
+				"text": "Our socials include pub trips and  club nights, group meetings and more, keep an eye out at sessions, GIAGs and our social medias for when we are hosting them.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mens_bc_when"]
+					}
+				]
+			}
+		]
+	}
+}

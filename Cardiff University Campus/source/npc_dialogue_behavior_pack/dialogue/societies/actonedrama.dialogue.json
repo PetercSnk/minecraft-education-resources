@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "actonedrama_welcome",
+				"npc_name": "Act One Drama Society Rep",
+				"text": "Act One is Cardiff’s largest drama society. Every year we put on several productions, all ranging in a variety of genres, and also host our award-winning annual night of original writing - Staging a Coup! \n\nIf you enjoy acting, dancing, singing, socialising, or are interested in helping backstage with costumes, make-up, set design, publicity, stage management, sound or lighting, then we are the society for you!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator actonedrama_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator actonedrama_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator actonedrama_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/actone/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/actonecardiff/"
+					}
+				]
+			},
+			{
+				"scene_tag": "actonedrama_when_are_meetings",
+				"npc_name": "Act One Drama Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator actonedrama_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "actonedrama_how_much",
+				"npc_name": "Act One Drama Society Rep",
+				"text": "Our membership is £15.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator actonedrama_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "actonedrama_socials",
+				"npc_name": "Act One Drama Society Rep",
+				"text": "We have a reputation for our impressive productions, imaginative socials, and the Act One Ball!\n\nWe also run smaller-scale productions, workshops and open mic nights. So if you're a fresher and want to direct - or if you don’t get cast in a main production - there are still plenty of opportunities to get involved.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator actonedrama_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

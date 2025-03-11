@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "cybersoc_welcome",
+				"npc_name": "CyberSoc Rep",
+				"text": "Hi, we’re CyberSoc! A renowned platinum-tier society and the place for all things coding and tech at Cardiff University. We aim to be a key-part of student life for Computer Science and Software Engineering students, but we’re always keen to welcome in students from other courses. \n\nA lot of our events are beginner friendly, and we’re always on hand to help you get started. We all started knowing nothing too. Join CyberSoc today and can kick-start your journey into the world of technology with like-minded individuals.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator cybersoc_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator cybersoc_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator cybersoc_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/cybersoc/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cucybersoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "cybersoc_when_are_meetings",
+				"npc_name": "CyberSoc Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cybersoc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cybersoc_how_much",
+				"npc_name": "CyberSoc Rep",
+				"text": "Our membership is free!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cybersoc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cybersoc_socials",
+				"npc_name": "CyberSoc Rep",
+				"text": "You can expect a variety of talks, workshops, hackathons, and socials from various large organisations like AWS & Bipsync as well as smaller local start-ups. These events look great on your CV.\n\nEmployers have frequently cited demonstration of passion for the fields and willingness to learn as top factors in the recruitment decision-making process. \n\nOn top of that these events offer great networking opportunities and a chance for you to learn vital skills for your future careers. Did we mention these events are free and often involve pizza? ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cybersoc_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

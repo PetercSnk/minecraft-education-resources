@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "trampoline_welcome",
+				"npc_name": "Trampoline Club Rep",
+				"text": "We are Cardiff Uni's trampolining club, we welcome anyone from complete novices who have never been on a trampoline to elite athletes.\n\nWe have coaches who attend all sessions and teach all sorts of techniques, we have a multitude of events and competitions both away and in cardiff, as well as competing in BUCS once a year. ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator trampoline_when"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator trampoline_cost"]
+					},
+					{
+						"name": "Kind of Socials?",
+						"commands": ["/dialogue open @s @initiator trampoline_social"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/trampoline/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiff_tramp"
+					}
+				]
+			},
+			{
+				"scene_tag": "trampoline_when",
+				"npc_name": "Trampoline Club Rep",
+				"text": "We meet regularly for training on Tuesdays and Sundays, but make sure to keep an eye out on our SU page and social medias for specifics and changes to our training schedule.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator trampoline_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "trampoline_cost",
+				"npc_name": "Trampoline Club Rep",
+				"text": "We have three types of memberships of differing cost:\n\nStandard Membership: £70.00\nSocial Membership: £5.00\nHalf-Year Membership: £40.00",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator trampoline_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "trampoline_social",
+				"npc_name": "Trampoline Club Rep",
+				"text": "We have frequent socials, such as pub and club nights as well as movie nights and other sober socials. Our events are often themed and we hope to see you there!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator trampoline_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "jewish_welcome",
+				"npc_name": "Jewish Society Rep",
+				"text": "The aim of the Jewish society is to create a warm and friendly environment for Jewish and non-Jewish students to immerse themselves in the culture of Judaism through traditions spanning back over 3 millennia. \n\nThe Jewish society is aimed to encompass Jews from all backgrounds as well as people who would just like to understand a different culture.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator jewish_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator jewish_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator jewish_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/jewish/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiff_jsoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "jewish_when_are_meetings",
+				"npc_name": "Jewish Society Rep",
+				"text": "We plan regular events ranging from the Friday night dinner to the celebrations of the festivals of Purim and Chanukah. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator jewish_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "jewish_how_much",
+				"npc_name": "Jewish Society Rep",
+				"text": "Our membership is free!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator jewish_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "jewish_socials",
+				"npc_name": "Jewish Society Rep",
+				"text": "We also meet for other social events such as movie nights, karaoke as well as events with Jewish societies over the whole of Wales and southwest England. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator jewish_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

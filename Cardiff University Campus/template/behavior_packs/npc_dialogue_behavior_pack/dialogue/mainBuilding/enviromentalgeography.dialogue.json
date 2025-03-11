@@ -1,0 +1,78 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "enviromentalgeography_main",
+				"npc_name": "Enviromental Geography course rep",
+				"text": "In our enviromental geography course students will study how the Earth functions and the science behind the human impact on the planet. Students will be able to use the latest technologies and develop skills in geographical mapping, research, analysis and problem-solving.\n\nIn this course we offer many trips, taking advantage of our location and the landmarks near by. We also offer overseas trips such as the Netherlands and Switzerland. ",
+				"buttons": [
+					{
+						"name": "Course content",
+						"commands": ["/dialogue open @s @initiator enviromentalgeography_courseContent"]
+					},
+					{
+						"name": "Placements",
+						"commands": ["/dialogue open @s @initiator enviromentalgeography_placements"]
+					},
+					{
+						"name": "Career outcomes",
+						"commands": ["/dialogue open @s @initiator enviromentalgeography_careerOutcomes"]
+					},
+					{
+						"name": "More info",
+						"url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/environmental-geography-bsc"
+					}
+				]
+			},
+			{
+				"scene_tag": "enviromentalgeography_courseContent",
+				"npc_name": "NPC",
+				"text": "First Year\nIn the first year, students are taught foundational skills and knowledge in earth sciences and geography. These include oceans, climate, earth processes, global enviroments, maps skills and basic geographical data analysis.\n\nSecond Year \nThe second year will get students to build on their knowledge and explore more advanced concepts such as marine ecology, biogeochemistry and ocean-atmosphere systems.\nDuring second year students will go on a residential field course to the coastal national park within Wales to be able to learn key field skills. During the summer students will do a 5 week independant research project to prepare fo their dissertation in third year.\n\nThird year\nIn the third year stuents will have more freedom though optional modules. Third year offers students an overseas residential field course to a coastal location in Europe allowing students to devlop their skills in enviromental monitoring and surverying. The core modules in this year include the students dissertation and investigating extreme enviroments from a biochemical perspective and optional modules such as Marine enviromental systems and Global climate change.\n",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator enviromentalgeography_main"]
+					},
+					{
+						"name": "Field work",
+						"commands": ["/dialogue open @s @initiator enviromentalgeography_fieldWork"]
+					}
+				]
+			},
+			{
+				"scene_tag": "enviromentalgeography_placements",
+				"npc_name": "NPC",
+				"text": "This course also offers students the opportunity to spend one academic year living in a country outside the UK and studying at a university with which the School has a student exchange agreement. \n\nThis gives students the opportunity to gain academic study experience in a different enviroment allowing exploration with a new physical enviroment, landscapes and coastlines. \n\nThe school will help students find a placement and will be in contact with them throughout their time abroad.",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator enviromentalgeography_main"]
+					}
+				]
+			},
+			{
+				"scene_tag": "enviromentalgeography_careerOutcomes",
+				"npc_name": "NPC",
+				"text": "The skills of an environmental geographer are in demand due to the increasing pressures of climate change. \n\nGuaduates from this course will have opportunities in a variety of different industries and roles such as conservation and enviromental management. \n\nPast students have gone on to work at the Enviroment Agency, Natural REsources Wales, local goverment, enviromental consultancies and environmental charities.",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator enviromentalgeography_main"]
+					}
+				]
+			},
+			{
+				"scene_tag": "enviromentalgeography_fieldWork",
+				"npc_name": "NPC",
+				"text": "Our location in South Wales is perfect for studying environmental geography, as we have easy access to a huge range of natural environments, with mountains to the north and the Severn tidal estuary in the south. Naturally, we will spend some time studying these varied landscapes and training you in essential fieldwork skills, such as map-reading, landscape identification and the use of a compass.\n\nWe also take our students on several residential field trips. In the past we have explored the impacts of past glaciations on the environment of Snowdonia National Park, visited a modern glaciated landscape in the Alps, and investigated hydrology and river systems in the south of France.\n\nAll of the travel and accommodation on our field trips is paid for by the School. We will only ask you for a small contribution towards food and drink for each trip.",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator enviromentalgeography_courseContent"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "baseball_welcome",
+				"npc_name": "Baseball and Softball Club Rep",
+				"text": "Are you interested in trying out baseball or softball? The Cardiff University Baseball & Softball Club, also known as the Cardiff Cubs, is a vibrant community focused on both sports. Founded in 2017 as the Cardiff Softball Club, we now actively participate in competitive university baseball leagues and are excited to welcome new members.\n\nThis year, our club is undergoing a revitalization with new faces and fresh energy. We welcome players of all experience levels, whether you've played baseball your whole life or are completely new to the sport. Our mixed league ensures that everyone is welcome and can enjoy the game.",
+				"buttons": [
+					{
+						"name": "When are meetings?",
+						"commands": ["/dialogue open @s @initiator baseball_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator baseball_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator baseball_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/16442/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cusoftballsoc"
+					}
+				]
+			},
+			{
+				"scene_tag": "baseball_meetings",
+				"npc_name": "Baseball and Softball Club Rep",
+				"text": "Our classes are held regularly throughout the week, Our practice sessions are held twice a week, providing ample opportunity for you to get involved:\n\nTuesdays: 12:00 PM - 1:00 PM at Talybont Hockey Pitch\nWednesdays: 10:00 AM - 12:00 PM at Talybont Training Village\n\nIf you have your own equipment, feel free to bring it along. If not, we have plenty of equipment to spare, so you can jump right into the action.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator baseball_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "baseball_cost",
+				"npc_name": "Baseball and Softball Club Rep",
+				"text": "We offer a standard membership for £20\n\nThese memberships give you access to our sessions competitions and social events. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator baseball_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "baseball_socials",
+				"npc_name": "Baseball and Softball Club Rep",
+				"text": "Our club competes in the BUCS league, with several matches throughout the year to satisfy any competitive spirit. Whether you're looking to compete or just enjoy the sport recreationally, we have something for everyone. \n\nWe often host socials such as pub nights, club trips as well as all sorts of non-alcoholic events, just like in sport we have something for everyone.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator baseball_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

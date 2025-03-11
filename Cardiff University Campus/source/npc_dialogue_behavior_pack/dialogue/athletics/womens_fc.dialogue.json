@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "womens_fc_welcome",
+				"npc_name": "Womens FC Rep",
+				"text": "Hi, we are ladies football at Cardiff Univeristy, aka CULF.\n\nWe are one of the most rapidly growing clubs of Cardiff’s Athletic Union and we pride ourselves in creating opportunities for females to continuing playing an elite level of football at university. With the integration of our development team and IMG leagues in the past couple of years, we have teams suited to all abilities. Whether you wish to play competitively, for fun, or just enjoy the social aspect, CULF prides itself on its footballing success and its inclusive social scene. \n\nStudents find CULF a wonderful way to socialise and make friendships that last a lifetime!  ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator womens_fc_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator womens_fc_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator womens_fc_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/ladiesfootball/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/CULF_"
+					}
+				]
+			},
+			{
+				"scene_tag": "womens_fc_when_are_meetings",
+				"npc_name": "Womens FC Rep",
+				"text": "The First Team and Second team, the 1A and 2B division has games every Wednesday, as well as the development squad. The Futsal Team has games on Saturdays.\n\nGames are hosted both at the Talybont Sports Training Village, and a Llanrumney, as well as away games across England and Wales.\n\nWe also have socials every Wednesday afternoon/evening.\n\nOur training schedule is available on our SU page. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womens_fc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "womens_fc_how_much",
+				"npc_name": "Womens FC Rep",
+				"text": "We have three different types of memberships, each with different costs:\n\nStandard Membership: £45.00\nSocial Membership: £15.00\nErasmus Membership: £20.00",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womens_fc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "womens_fc_socials",
+				"npc_name": "Womens FC Rep",
+				"text": "Our socials consist of trainings, yolo and clubbing trips, and games, as well as other socials which we post about on our social medias!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womens_fc_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

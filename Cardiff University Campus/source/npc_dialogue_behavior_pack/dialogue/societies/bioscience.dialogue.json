@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "bioscience_welcome",
+				"npc_name": "Bioscience Society Rep",
+				"text": "Welcome to the Bioscience Society!\n\nOur aim as a society is to give Bioscience Students a place where they can socialise with each other outside of lectures, as well as providing learning opportunities outside lectures and labs and academic support in terms of revision sessions.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator bioscience_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator bioscience_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator bioscience_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/bioscience/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cubioscisoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "bioscience_when_are_meetings",
+				"npc_name": "Bioscience Society Rep",
+				"text": "Specific date and times for socials can be found on our SU page and our Instagram page.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator bioscience_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "bioscience_how_much",
+				"npc_name": "Bioscience Society Rep",
+				"text": "Membership is only £3 so make sure to join regardless of your course, everyone is welcome! \n\nBenefits of being a member: \n- Buy tickets for events\n- Get discounts/offers on Hoodies/Crewnecks exclusive to members\n- Attend workshops and talks\n- Take part in revision sessions",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator bioscience_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "bioscience_socials",
+				"npc_name": "Bioscience Society Rep",
+				"text": "This year we have planned and organised lots of exciting events including bar crawls, film nights, non-alcoholic events, more academic support such as talks from different areas of Biosciences and revision sessions and the classic Bioscience Balls!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator bioscience_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "womens_rc_welcome",
+				"npc_name": "Womens Rugby Club Rep",
+				"text": "We are Cardiff University Ladies RFC, we are a dynamic community with an environment which allows all our members to grow and develop as players!\n\nWe train and socialise frequently, creating a space to not just improve as a player but also to make friends and lifelong memories!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator womens_rc_when"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator womens_rc_cost"]
+					},
+					{
+						"name": "Kind of Socials?",
+						"commands": ["/dialogue open @s @initiator womens_rc_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/ladiesrugby/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunilrfc"
+					}
+				]
+			},
+			{
+				"scene_tag": "womens_rc_when",
+				"npc_name": "Womens Rugby Club Rep",
+				"text": "We meet regularly every week to train and socials, with socials every Wednesday!\n\nOur training schedule is available on our SU page!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womens_rc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "womens_rc_cost",
+				"npc_name": "Womens Rugby Club Rep",
+				"text": "We have 4 different types of membership at varying prices:\n\nFirst Team Membership: £85.00\nSecond Team Membership: £85.00\nThird Team Membership: £40.00\nSocial Membership: £20.00",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womens_rc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "womens_rc_socials",
+				"npc_name": "Womens Rugby Club Rep",
+				"text": "We are one of the most social clubs in the AU and have a range of themes for our events. Our events are often held at the Taf in the SU, as well as many sober events such as movie and pizza nights, lazerquest and more!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womens_rc_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "pakistani_welcome",
+				"npc_name": "Pakistani Society Rep",
+				"text": "The Pakistani Society holds different events so that students can enjoy Pakistani culture, feel less homesick, make new friends, and maybe learn something new. \n\nWe also provide help and advice to members on different issues that they might have problems on.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator pakistani_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator pakistani_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator pakistani_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/paksoc/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/Paksoccardiffuni/"
+					}
+				]
+			},
+			{
+				"scene_tag": "pakistani_when_are_meetings",
+				"npc_name": "Pakistani Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our instagram.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator pakistani_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "pakistani_how_much",
+				"npc_name": "Pakistani Society Rep",
+				"text": "Our membership is £5.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator pakistani_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "pakistani_socials",
+				"npc_name": "Pakistani Society Rep",
+				"text": "We host a variety of socials, with Go Global being a major one we take part in.\n\nFor full details, have a look at our instagram.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator pakistani_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

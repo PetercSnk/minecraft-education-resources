@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "american_football_welcome",
+				"npc_name": "American Football Club Rep",
+				"text": "We are Cardiff University's American Football club, the Cobras. The Cobras have the incredible privilege of competing at the highest level of university sports, participating in thrilling away day events drawing thousands of spectators, including our Welsh Varsity match. Now, it's your chance to be a part of one of the fastest-growing sports in the UK, at its highest level, regardless of your background or prior American Football experience.",
+				"buttons": [
+					{
+						"name": "When are meetings?",
+						"commands": ["/dialogue open @s @initiator american_football_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator american_football_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator american_football_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/cobras/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffcobras_"
+					}
+				]
+			},
+			{
+				"scene_tag": "american_football_meetings",
+				"npc_name": "American Football Club Rep",
+				"text": "We have weekly training sessions on Tuesdays and Thursdays. We also have Sunday sessions on BYE weeks, as well as this we have weekly online classroom sessions. \n\nOur fixtures take place on Sundays and the occational Saturday. \n\nOur full training schedule and details are on our webpage and social media.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator american_football_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "american_football_cost",
+				"npc_name": "American Football Club Rep",
+				"text": "We have two different types of memberships for beginners vs advanced members. Beginner membership is £100 whereas advanced membership is £80.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator american_football_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "american_football_socials",
+				"npc_name": "American Football Club Rep",
+				"text": "At the heart of the Cardiff Cobras is our sense of community. Our weekly social events are renowned as some of the best at Cardiff University. Build lasting friendships beyond the field in fantastic social environments, and connect with fellow students from across the university at our monthly joint socials. Plus, enjoy exclusive discounts at Cardiff's finest pubs and bars as a Cardiff Cobra, with reduced ticket prices and drink specials.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator american_football_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

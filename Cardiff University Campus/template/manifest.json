@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "header": {
+        "allow_random_seed": false,
+        "base_game_version": [1, 20, 0],
+        "description": "Explore a variety of buildings within the Cardiff University campus",
+        "lock_template_options": false,
+        "name": "Cardiff University Campus",
+        "platform_locked": false,
+        "uuid": "76825793-27ca-44db-b62b-fe40a28d91a6",
+        "version": [1, 0, 1]
+    },
+    "modules": [
+        {
+            "type": "world_template",
+            "uuid": "864ee125-81ea-4705-a470-8ee68a222f81",
+            "version": [1, 0, 1]
+        }
+    ]
+}

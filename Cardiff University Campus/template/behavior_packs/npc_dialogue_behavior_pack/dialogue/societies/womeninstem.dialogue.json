@@ -1,0 +1,73 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "womeninstem_welcome",
+				"npc_name": "Women in Stem Rep",
+				"text": "A network of women and non-binary people in STEM, working together to encourage each other, network, promote innovative ideas, support projects and talk about the increasing role of women in STEM disciplines. Undergrads, Post-grads, and TS all welcome!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator womeninstem_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator womeninstem_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator womeninstem_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/26442/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/Womeninstemcu/"
+					}
+				]
+			},
+			{
+				"scene_tag": "womeninstem_when_are_meetings",
+				"npc_name": "Women in Stem Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our instagram.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womeninstem_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "womeninstem_how_much",
+				"npc_name": "Women in Stem Rep",
+				"text": "Our membership is free!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womeninstem_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "womeninstem_socials",
+				"npc_name": "Women in Stem Rep",
+				"text": "We host a variety of socials. For full details, have a look at our instagram page.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator womeninstem_welcome"]
+
+					}
+				]
+			}
+		]
+	}
+}

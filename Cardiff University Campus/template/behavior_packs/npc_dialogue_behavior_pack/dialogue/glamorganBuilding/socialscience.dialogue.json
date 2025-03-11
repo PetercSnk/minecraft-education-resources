@@ -1,0 +1,48 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "socialscience_main",
+				"npc_name": "School of Social Sciences",
+				"text": "The school of Social Sciences is an internationally-recognised high-quality teaching and research centre.\nWe take pride in our student community and aim to provide a rewarding learning experience. \n\nOur world-leading teaching, informed by recent academic research, covers seven social science disciplines: Criminology, Education, Human and Social Sciences, Social Analytics, Social Policy, Social Science, and Sociology. \n\nOur graduates are highly employable, with opportunities for a fourth-year professional placement or study abroad.",
+				"buttons": [
+					{
+						"name": "Undergrad info",
+						"commands": ["/dialogue open @s @initiator socialscience_undergrad"]
+					},
+					{
+						"name": "Postgrad info",
+						"commands": ["/dialogue open @s @initiator socialscience_postgrad"]
+					},
+					{
+						"name": "More info",
+						"url": "https://www.cardiff.ac.uk/social-sciences"
+					}
+				]
+			},
+			{
+				"scene_tag": "socialscience_undergrad",
+				"npc_name": "NPC",
+				"text": "Here at Cardiff we offer several different courses all with information that will relate directly to current events happening in the world today. \nAll our undergraduate courses provide opportunities to develop skills in social science research methods, and to engage with interdisciplinary research. \n\nUndergraduate course we offer:\n- Criminology (with Social Policy or Sociology or Law)\n- Education (with Sociology or Welsh)\n- Social Policy (with Criminology or Sociology)\n- Sociology\n- Social Science \n- Human and Social sciences \n- Social Analytics",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator socialscience_main"]
+					}
+				]
+			},
+			{
+				"scene_tag": "socialscience_postgrad",
+				"npc_name": "NPC",
+				"text": "Our school offers a range of postgraduate taught programmes in an environment renowned for world-leading research. Our modular master's programmes allow focused studies relevant to various vocations across the public, private, and third sectors. \n\nStudents benefit from the expertise of leading researchers and scholars, receiving teaching from nationally and internationally recognized experts. Our teaching is underpinned by cutting-edge research, delivered by practicing researchers at the forefront of their fields.\n\nPostgraduate course:\n- Education\n- International Criminology and Criminal Justice\n- Social and Public Policy\n- Social Science Research Methods\n- Social Work\n- Sociology",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator socialscience_main"]
+					}
+				]
+			}
+		]
+	}
+}

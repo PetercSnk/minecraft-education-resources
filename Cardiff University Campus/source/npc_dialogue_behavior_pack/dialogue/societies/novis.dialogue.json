@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "novis_welcome",
+				"npc_name": "NOVIS Society Rep",
+				"text": "We are CU NOVIS, Neurodiverget Opportunity, Visibility and Inclusion Society. We are open to all neurodivergent students as well as allies and are dedicated to raising awareness of neurodivergence and charities to support neurodivergent people.\n\nWe hope to create a community of like minded people and create a safe space for members to socialise and make new friends.\n\nWe will also help signpost towards support services if requested.\n\nWe are affiliated with the charity 'Ambitious About Autism'.\n\nWe have a lot more information about our Buddy System, a Neurodivergent guide to Cardiff and more on our Discord, which you can join from our SU page!",
+				"buttons": [
+					{
+						"name": "When do you meet",
+						"commands": ["/dialogue open @s @initiator novis_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator novis_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator novis_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/cardiffuninovis/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/cunovis"
+					}
+				]
+			},
+			{
+				"scene_tag": "novis_when_are_meetings",
+				"npc_name": "NOVIS Society Rep",
+				"text": "We meet on Wednesdays at 6pm regularly on Discord, but we often have irregular socials which we share on our SU page and our social medias. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator novis_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "novis_how_much",
+				"npc_name": "NOVIS Society Rep",
+				"text": "Our membership is free, but most events will still require tickets, even for free events due to limited capacity, although paid events are often discounted for members. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator novis_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "novis_socials",
+				"npc_name": "NOVIS Society Rep",
+				"text": "We have a weekly newsletter posting any events for the week, as well as some feel good news or to highlight anything exciting from the past week. Our socials often consist of quiz or pub nights as well as a special interest swap!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator novis_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

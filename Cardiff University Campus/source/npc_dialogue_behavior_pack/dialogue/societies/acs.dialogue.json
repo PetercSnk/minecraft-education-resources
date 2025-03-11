@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "acs_welcome",
+				"npc_name": "African Caribbean Society Rep",
+				"text": "The African Caribbean Society (ACS) is a society focused on educating and bringing together the peopelr of Cardiff and to provide a deeper understanding of African Caribbean Heritage, and we welcome anyone who wishes to get involved.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator acs_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator acs_how_much"]
+					},
+					{
+						"name": "Kind of Socials?",
+						"commands": ["/dialogue open @s @initiator acs_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/acs/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/cardiffuniacs"
+					}
+				]
+			},
+			{
+				"scene_tag": "acs_when_are_meetings",
+				"npc_name": "African Caribbean Society Rep",
+				"text": "We are committed to meeting on a regular basis, and share the events coming up on our SU page and our social medias. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator acs_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "acs_how_much",
+				"npc_name": "African Caribbean Society Rep",
+				"text": "Our membership is £6.00, but most events will still require tickets, even for free events due to limited capacity, although paid events are often discounted for members. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator acs_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "acs_socials",
+				"npc_name": "African Caribbean Society Rep",
+				"text": "Our socials consist of nights out clubbing, sports events for our teams, simple hang outs, dinners, parties, Afrogene our annual talent showcase and more!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator acs_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

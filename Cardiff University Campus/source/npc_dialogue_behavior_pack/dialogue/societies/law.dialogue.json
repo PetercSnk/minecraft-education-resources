@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "law_welcome",
+				"npc_name": "Law Society Rep",
+				"text": "Welcome to the Cardiff University Law Society! Regardless of your degree, all are welcome to become a member!\n\nWe aim to provide members with all-rounded experience, including social and educational experience.The Society strives to guarantee opportunities for members to establish network as part of the university experience and to build a career in law. \n\nThe Society values diversity and inclusion as reflected by our D&I events, and are also committed to giving back to the community by working with charities. ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator law_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator law_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator law_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/law/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/culawsoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "law_when_are_meetings",
+				"npc_name": "Law Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator law_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "law_how_much",
+				"npc_name": "Law Society Rep",
+				"text": "Our membership is £13.50 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator law_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "law_socials",
+				"npc_name": "Law Society Rep",
+				"text": "The Society regularly host social events as well as exclusive networking events with leading employers in the legal field, as well as workshops such as CV writing and interview skills.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+]						"commands": ["/dialogue open @s @initiator law_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "chemistrycourse_main",
+				"npc_name": "Chemistry course rep",
+				"text": "The bachelors chemistry course is a 3 year course which provides a broad introduction to chemistry. The course offers students to explore their interests through optional modules and research projects.\n\nContent is taught through a series of lectures, tutorials, workshops and practical classes. These are also heavily support through materials hosted online by the school through learning central.",
+				"buttons": [
+					{
+						"name": "Course content",
+						"commands": ["/dialogue open @s @initiator chemistrycourse_courseContent"]
+					},
+					{
+						"name": "Placements and abroad",
+						"commands": ["/dialogue open @s @initiator chemistrycourse_placementAbroad"]
+					},
+					{
+						"name": "Career outcomes",
+						"commands": ["/dialogue open @s @initiator chemistrycourse_careerOutcomes"]
+					},
+					{
+						"name": "More info",
+						"url": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/chemistry-bsc"
+					}
+				]
+			},
+			{
+				"scene_tag": "chemistrycourse_courseContent",
+				"npc_name": "NPC",
+				"text": "First year \nFirst year will provide a foundation for all students. The core modules in first year are based around 5 principle subject areas: \nanalytical inorganic, organic, physical and solid state chemistry\nAswell as optional modules such as drug development \n\nSecond year\nSecond year content will develop a deeper understanding within modules from first year helping students to consolidate and practice their skills.\n\nThird year\nIn year 3 students undertake a substantial research project during the spring semester.\nStudents will also take a compulsory theory module in four branches of the subject and select from a range of optional modules.",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator chemistrycourse_main"]
+					}
+				]
+			},
+			{
+				"scene_tag": "chemistrycourse_placementAbroad",
+				"npc_name": "NPC",
+				"text": "The chemistry bsc course offers a placement year in industry or the opportunity for students to study abroad for a year. \nThese opportunities will be undertaken during the 3rd year.\n\nWork placements are usually based in the UK however we do allow opportunities for overseas industrial placements. You will effectively be an employee of the company with whom you are placed, and you will conduct chemistry-related activities. We encourage you to look for your own placements however we will share opportunities and offer support.\n\nStudying abroad will involve students to undertake a project under the supervision of an english speaking member of staff. The school will be here to support and help you find a placement and will remain in close contact throughout your placement.",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator chemistrycourse_main"]
+					}
+				]
+			},
+			{
+				"scene_tag": "chemistrycourse_careerOutcomes",
+				"npc_name": "NPC",
+				"text": "Graduate chemists have an array of career options. Many join the chemical industry, while others enter academia or government establishments.\n\nPotential graduate careers include:\n- Product Development Chemist\n- Patent Analyst\n- Quality Control Scientist\n- Chemical Engineer\n- Academic Researcher",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator chemistrycourse_main"]
+					}
+				]
+			}
+		]
+	}
+}

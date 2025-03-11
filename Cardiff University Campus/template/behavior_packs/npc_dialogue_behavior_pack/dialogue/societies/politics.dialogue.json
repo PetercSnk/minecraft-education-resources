@@ -1,0 +1,73 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "politics_welcome",
+				"npc_name": "Politics Society Rep",
+				"text": "Welcome to the Cardiff University's Politics Society!\n\nWe cater for all interests, whether you are studying Politics and International Relations or if you have a general interest in Politics, we will have an event running that will interest you!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator politics_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator politics_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator politics_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/politics/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cupolsoc_/"
+					}
+				]
+			},
+			{
+				"scene_tag": "politics_when_are_meetings",
+				"npc_name": "Politics Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our instagram.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator politics_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "politics_how_much",
+				"npc_name": "Politics Society Rep",
+				"text": "Our membership is £3.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator politics_welcome"]
+
+					}
+				]
+			},
+			{
+				"scene_tag": "politics_socials",
+				"npc_name": "Politics Society Rep",
+				"text": "We run a variety of socials, Guest Speaker events, and trips, as well as our famed ball at the end of the year.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator politics_welcome"]
+
+					}
+				]
+			}
+		]
+	}
+}

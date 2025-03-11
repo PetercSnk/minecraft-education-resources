@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "mens_rc_welcome",
+				"npc_name": "Mens Rugby Club Rep",
+				"text": "We are the Cardiff Uni's mens rugby team! \n\nAre you ready to be part of a vibrant, dynamic, and highly competitive rugby community? Look no further than the Cardiff Men's Rugby Club. Boasting an impressive line-up of 7 teams, including 2 dedicated medical teams, we offer unparalleled opportunities for every player, regardless of your level of experience.\n\nWe have matches facing against many teams, competing in the BUCS Super Rugby league.\n\nAll members have access to our training facilities, coaching, as well as discounts at our social venues and reduced university gym membership.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator mens_rc_when"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator mens_rc_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator mens_rc_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/rugby/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/Cardiffunirugby"
+					}
+				]
+			},
+			{
+				"scene_tag": "mens_rc_when",
+				"npc_name": "Mens Rugby Club Rep",
+				"text": "We have regular rugby fixtures on Wednesdays, as well as socials on the same days after our games. \nOur training schedule is available on our SU page.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mens_rc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mens_rc_cost",
+				"npc_name": "Mens Rugby Club Rep",
+				"text": "Every student who joins must buy a Macron Kit Pack which is available at our Macron store, as well as a membership, in which we have 3 different types.\n\nStandard Membership: £75.00\nIMG Membership: £30.00\nSocial Membership: £30.00",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mens_rc_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mens_rc_socials",
+				"npc_name": "Mens Rugby Club Rep",
+				"text": "We hold weekly socials following games on a Wednesday at our regular venue. We also hold annual Christmas meals and End of Season Dinner Awards ceremonies. We have many types of socials all throughout the year.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mens_rc_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

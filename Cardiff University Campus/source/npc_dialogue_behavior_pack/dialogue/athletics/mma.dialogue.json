@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "mma_welcome",
+				"npc_name": "MMA Club Rep",
+				"text": "Hello, we are Cardiff's MMA club, we cover all sorts of techniques in our training, and these can all be practiced during our open mat sparring or put to the test in competitions throughout the year. \n\nMMA doctrine is to teach people the best ways to defend themselves and defeat an opponent.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator mma_when"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator mma_cost"]
+					},
+					{
+						"name": "Kind of Socials?",
+						"commands": ["/dialogue open @s @initiator mma_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/mma/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/Cardiffuni_mma"
+					}
+				]
+			},
+			{
+				"scene_tag": "mma_when",
+				"npc_name": "NPC",
+				"text": "We have a weekly training schedule and meet all throughout the week for different activities. These meetings are at the SU. We also go on trips for competitions and events and sometimes host events.\n\nOur training schedule is available on our SU page.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mma_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mma_cost",
+				"npc_name": "NPC",
+				"text": "Our stanard membership is £80.00, however non-members can buy a single session ticket for £5, as all the sessions are beginner friendly.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mma_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "mma_socials",
+				"npc_name": "NPC",
+				"text": "There are many social events we do, such as pub and club nights, exhibitions, and watch parties of MMA events, our annual summer ball and more!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator mma_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "christianunion_welcome",
+				"npc_name": "Christian Union Rep",
+				"text": "We are a body of Christians with all the add-ons and extras removed. We are Christianity stripped down to the basics. We are just people, united through our one desire to find righteousness in the person of Jesus Christ.\n\nThe vision of Cardiff University Christian Union is to strive together in bearing witness to the salvation and life we've found in Christ - to the whole of Cardiff University. This is our mission and this is our joy.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator christianunion_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator christianunion_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator christianunion_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/christianunion/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunicu/"
+					}
+				]
+			},
+			{
+				"scene_tag": "christianunion_when_are_meetings",
+				"npc_name": "Christian Union Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator christianunion_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "christianunion_how_much",
+				"npc_name": "Christian Union Rep",
+				"text": "Our membership is £5.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator christianunion_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "christianunion_socials",
+				"npc_name": "Christian Union Rep",
+				"text": "We host a variety of socials. For full details, have a look at our social media pages.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator christianunion_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

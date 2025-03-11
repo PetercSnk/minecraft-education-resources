@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "film_welcome",
+				"npc_name": "Film Society Rep",
+				"text": "Welcome to Cardiff University Film Society: the home for film lovers, aspiring film makers and all things film! We are a very active and diverse society who are always open to newcomers.\n\nWe are a friendly group who love cinema and a laugh and would be glad to see you at one of our events! Do feel free to follow or message our instagram or join our discord to discuss films and to keep up to date with all of our events, including voting for our weekly movie nights.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator film_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator film_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator film_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/film/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardifffilmsociety/"
+					}
+				]
+			},
+			{
+				"scene_tag": "film_when_are_meetings",
+				"npc_name": "Film Society Rep",
+				"text": "We host regular events every Friday! ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator film_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "film_how_much",
+				"npc_name": "Film Society Rep",
+				"text": "Our membership is £3.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator film_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "film_socials",
+				"npc_name": "Film Society Rep",
+				"text": "Our socials include collabs with other societies, cinema trips, movie nights, film quizzes or just hanging out at the pub!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator film_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

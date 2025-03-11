@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "oncology_welcome",
+				"npc_name": "Oncology Society Rep",
+				"text": "Welcome to the Cardiff University Oncology Society! CUOS was founded in 2016 by a group of medical students with the aim of increasing awareness and understanding of the field of oncology both to students at Cardiff University and to the wider public.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator oncology_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator oncology_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator oncology_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/oncology/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cuoncologysoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "oncology_when_are_meetings",
+				"npc_name": "Oncology Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator oncology_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "oncology_how_much",
+				"npc_name": "Oncology Society Rep",
+				"text": "Our membership is free!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator oncology_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "oncology_socials",
+				"npc_name": "Oncology Society Rep",
+				"text": "We host a variety of socials. For full details, have a look at our social media pages.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator oncology_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

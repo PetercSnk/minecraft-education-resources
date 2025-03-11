@@ -1,0 +1,48 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "chemistry_main",
+				"npc_name": "School of Chemistry rep",
+				"text": "At Cardiff's School of Chemistry we are focused on tackling the important scientific challenges of the 21st century.\n\nOur collaborations with international companies help our research achieve the 12th rank in the UK for the impact of our research in addressing majar challenges.\n\n94% of our graduates were in employment and / or further study, 15 months after the end of their course.",
+				"buttons": [
+					{
+						"name": "Undergrad info",
+						"commands": ["/dialogue open @s @initiator chemistry_undergrad"]
+					},
+					{
+						"name": "Postgrad info",
+						"commands": ["/dialogue open @s @initiator chemistry_postgrad"]
+					},
+					{
+						"name": "More info",
+						"url": "https://www.cardiff.ac.uk/chemistry"
+					}
+				]
+			},
+			{
+				"scene_tag": "chemistry_undergrad",
+				"npc_name": "NPC",
+				"text": "We offer a variety of undergraduate courses.\n\nOur Bsc programmes provide a broad coverage of chemistry allowing those to progress to a career in chemistry or related disciplines.\nBsc Chemistry courses:\n- Chemistry with optional placement year abroad or in industry\n- Medicinal Chemistry\n\nOur 4 year Master's level courses focus in more depth on selected areas, devloping the understanding and knowledge to a higher level compared to Bsc.\nMChem Chemistry courses:\n- Chemistry with optional placement year abroad or in industry ",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator chemistry_main"]
+					}
+				]
+			},
+			{
+				"scene_tag": "chemistry_postgrad",
+				"npc_name": "NPC",
+				"text": "Postgraduate taught Masters\nOur Master's courses are designed to provide training in state-of-the-art aspects of theory, practical techniques and applications.\nPostgraduate taught Masters:\n- Advanced Chemistry\n- Medicinal Chemistry\n\nPostgraduate research\nOur research degrees give you the freedom to investigate a cutting-edge topic in depth, amongst leading researchers with truly first-class facilities.\nPhD and MPhil courses:\n- Catalysis in the Cardiff Catalysis Institute\n- Biological Chemistry\n- Chemistry\n- Inorganic Chemistry\n- Organic Synthesis\n- Physical Organic Chemistry\n- Solid State Materials\n- Theoretical and Computational Chemistry",
+				"buttons": [
+					{
+						"name": "Back",
+						"commands": ["/dialogue open @s @initiator chemistry_main"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "cheerleading_welcome",
+				"npc_name": "Cheerleading Club Rep",
+				"text": "Are you a gymnast, dancer, cheerleader, or just someone looking to keep fit and try something new? The Cardiff Snakecharmers Cheerleading & Dance Team welcomes everyone, whether you have experience or are just starting out!",
+				"buttons": [
+					{
+						"name": "When are meetings?"
+					},
+					{
+						"name": "How much is it?"
+					},
+					{
+						"name": "Kind of socials?"
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/cheerleading/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffuniversitycheer"
+					}
+				]
+			},
+			{
+				"scene_tag": "cheerleading_meetings",
+				"npc_name": "Cheerleading Club Rep",
+				"text": "Our teams train regularly throughout the week, with specific schedules for each team. Training sessions are designed to build skill, strength, and team spirit. We post all up-to-date information about taster sessions and tryouts on our Facebook page 'Cardiff Snakecharmers Cheer and Dance' and our Instagram 'cardiffuniversitycheer'. Follow us to stay informed about all our training times and updates.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cheerleading_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cheerleading_cost",
+				"npc_name": "Cheerleading Club Rep",
+				"text": "Membership costs vary depending on the team you join and the level of competition. \n\nGeneral Membership: £75\nDance only Membership: £50\nSocial Membership: £25\nCoaches Membership: £35\n\nPlease note that once paid, no refunds are available, so make sure to attend our taster sessions to see if we are the right fit for you before committing.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cheerleading_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cheerleading_socials",
+				"npc_name": "Cheerleading Club Rep",
+				"text": "Being a Snakecharmer isn’t just about training and competing; we also have a vibrant social scene. We host various social events throughout the year, including themed nights out, team bonding activities, and collaborative events with other sports clubs. These socials are a fantastic way to get to know your teammates better and make lifelong friends.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cheerleading_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

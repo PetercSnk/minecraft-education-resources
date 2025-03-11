@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "engineering_welcome",
+				"npc_name": "Engineering Society Rep",
+				"text": "The Cardiff University Engineering Society welcomes all the engineering undergrad or postgrad students, lecturers, and any individual interested in knowing more about the engineering field.\n\nAs a society, we aim to bring together students and staff to create a healthy, inclusive and active community within the Engineering School.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator engineering_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator engineering_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator engineering_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/engin/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cuenginsoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "engineering_when_are_meetings",
+				"npc_name": "Engineering Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator engineering_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "engineering_how_much",
+				"npc_name": "Engineering Society Rep",
+				"text": "Our membership is £4.00 for the year! Members get discounted tickets to our events and it includes special offers in food and drinks",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator engineering_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "engineering_socials",
+				"npc_name": "Engineering Society Rep",
+				"text": "Some of our events include: Toga Party, Speed Date Your Engin Mate (to meet engineers from other courses), Christmas Ball (black tie event), Crazy Golf, park walks and picnic!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator engineering_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

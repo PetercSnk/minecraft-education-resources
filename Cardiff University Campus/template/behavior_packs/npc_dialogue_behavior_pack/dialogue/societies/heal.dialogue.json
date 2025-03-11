@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "heal_welcome",
+				"npc_name": "HEAL Society Rep",
+				"text": "We are an intersectional healthcare student-based society for LGBTQIA+ students at Cardiff University. We advocate for LGBTQIA+ equality within healthcare as well as educate, inform and create a safe community for students.\n\n",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator heal_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator heal_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator heal_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/27121/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/lgbtheath"
+					}
+				]
+			},
+			{
+				"scene_tag": "heal_when_are_meetings",
+				"npc_name": "HEAL Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our Instagram.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator heal_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "heal_how_much",
+				"npc_name": "HEAL Society Rep",
+				"text": "Our membership is free!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator heal_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "heal_socials",
+				"npc_name": "HEAL Society Rep",
+				"text": "This year we will be doing regular teaching and organising regular socials. EVERYONE is welcome!\n\nAND we are working hard to promote LGBTQIA+ inclusive medical education by endorsing and promoting the LIMA letter!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator heal_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

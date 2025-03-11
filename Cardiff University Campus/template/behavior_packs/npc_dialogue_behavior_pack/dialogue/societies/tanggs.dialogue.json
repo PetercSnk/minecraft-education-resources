@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "tanggs_welcome",
+				"npc_name": "TANGGS Rep",
+				"text": "The Transgender, Ally, Non-binary, Gender questioning, and Gender non-conforming Society (TANGGS) is a non-alcoholic society seeking to build community among transgender and nonbinary Cardiff University students. ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator tanggs_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator tanggs_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator tanggs_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/tanggs/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/cu.tanggs"
+					}
+				]
+			},
+			{
+				"scene_tag": "tanggs_when_are_meetings",
+				"npc_name": "TANGGS Rep",
+				"text": "We usually meet weekly on Saturdays, but specific date and times for socials can be found on our SU page and our Instagram.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator tanggs_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "tanggs_how_much",
+				"npc_name": "TANGGS Rep",
+				"text": "Our membership is free!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator tanggs_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "tanggs_socials",
+				"npc_name": "TANGGS Rep",
+				"text": "We aim to have weekly socials with a variety of activities. Previous socials have involved group charity shopping, picnicking, and coffee mornings, and we plan for more socials involving fundraisers, greenspace walks, and mediated discussions on hot topics relevant to being transgender. We also seek to host joint socials with accepting university societies.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator tanggs_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

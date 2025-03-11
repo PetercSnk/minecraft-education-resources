@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "french_welcome",
+				"npc_name": "French Society Rep",
+				"text": "The French Society is for anyone studying french or who is interested in the language or culture, with a variety of events we learn more about the french language and immerse ourselves in the culture!.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator french_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator french_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator french_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/french/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/cardiffunifrenchsoc"
+					}
+				]
+			},
+			{
+				"scene_tag": "french_when_are_meetings",
+				"npc_name": "French Society Rep",
+				"text": "We meet regularly to do activities on various days of the week, and all of our socials are posted on our social media with tickets available on our SU page.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator french_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "french_how_much",
+				"npc_name": "French Society Rep",
+				"text": "Our membership is £6.00, but most events will still require tickets, even for free events due to limited capacity, although paid events are often discounted for members. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator french_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "french_socials",
+				"npc_name": "French Society Rep",
+				"text": "Our socials consist of pub nights, museum trips, potlucks (etc).",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator french_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "asian_welcome",
+				"npc_name": "Asian Society Rep",
+				"text": "Asian Soc is all about embracing and showcasing the Asian culture and traditions to Cardiff students whilst providing a welcoming and homely environment away from home. Through celebrations of major religious festivals, to casual dinners and socials, and our annual showcase event: Elements, we aim to provide a holistic experience for the student community.\n\nJoin the society and get plenty of opportunities to attend great events as well as meet a lot of new people. \n\n",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator asian_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator asian_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator asian_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/asiansoc/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.facebook.com/AsianSocCardiff/"
+					}
+				]
+			},
+			{
+				"scene_tag": "asian_when_are_meetings",
+				"npc_name": "Asian Society Rep",
+				"text": "Specific date and times for socials can be found on our SU page and our Facebook page.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator asian_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "asian_how_much",
+				"npc_name": "Asian Society Rep",
+				"text": "Our membership is £4.95 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator asian_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "asian_socials",
+				"npc_name": "Asian Society Rep",
+				"text": "Our Main Events Include: \nIniti-Asian, Garba, Diwali & Eid Chandni Ball, Cardiff-Bristol-Southampton Bar Crawl, Go Global, Elements, and Holi.\n\nThere are also plenty of opportunities for students to not only showcase their talents but to also learn and progress in genres such as dancing, singing, playing instruments and even acting!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator asian_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

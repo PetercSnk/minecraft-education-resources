@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "cardifftabletop_welcome",
+				"npc_name": "Cardiff Tabletop Society Rep",
+				"text": "Hi! We're The Cardiff Regular and Irregular Tabletop Society (CRITS). We welcome anyone who is interested in Boardgaming, Tabletop Role Playing Games (TTRPGs), Collectible Card Games (CCGs), Wargaming (Warhammer 40k, AoS etc.) and assorted other geekery, whether you're a seasoned veteran or someone interested in trying things out for the first time.\n\nWorried it's all a bit much for you or you need to be a super-geek to join? Don't be. A huge number of our long-time members had never done anything like this before they came to us. You can be anywhere on the geek scale from 0 to Wil Wheaton. We don't bite and we're happy to teach you how to play.",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator cardifftabletop_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator cardifftabletop_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator cardifftabletop_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/crits/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/critscardiff/"
+					}
+				]
+			},
+			{
+				"scene_tag": "cardifftabletop_when_are_meetings",
+				"npc_name": "Cardiff Tabletop Society Rep",
+				"text": "We have events 6 times a week! Our full schedule can be found on our SU page, socials, and Discord!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cardifftabletop_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cardifftabletop_how_much",
+				"npc_name": "Cardiff Tabletop Society Rep",
+				"text": "Our membership is £5.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cardifftabletop_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cardifftabletop_socials",
+				"npc_name": "Cardiff Tabletop Society Rep",
+				"text": "We have weekly Boardgaming, Roleplaying, Wargaming and Cardgaming opportunities; 6 times a week!\n\nWe also take part of Nerd Varsity which brings together all the Nerdier societies of the university in a big competition for charity! It's a lovely event that brings all the societies together; the winning society picks where all the charity money goes toward.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cardifftabletop_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

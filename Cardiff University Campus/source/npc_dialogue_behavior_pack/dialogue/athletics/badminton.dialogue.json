@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "badminton_welcome",
+				"npc_name": "Badminton Club Rep",
+				"text": "Cardiff University Badminton Club is a dynamic and innovative club that has both a strong competitive team alongside a fun social club. Within the club, there is plenty to do for all members whether they are elite players or complete beginners. Badminton is a sport that is extremely popular worldwide and in the lead-up to the Paris 2024 Olympics and Paralympics, this popularity will only increase!\n\nWe are one of the largest clubs in Cardiff and our weekly Social Sunday sessions provide the opportunity for all members to come along and play badminton in a relaxed and fun environment. During the year we run various fun events as well as friendly tournaments, all of which give everyone the opportunity to meet other people in the club.",
+				"buttons": [
+					{
+						"name": "When do you meet? ",
+						"commands": ["/dialogue open @s @initiator badmington_club_scene_2"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator badmington_club_scene_3"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator badmington_club_scene_4"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/badminton/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiff_badminton"
+					}
+				]
+			},
+			{
+				"scene_tag": "badminton_club_scene_2",
+				"npc_name": "Badminton Club Rep",
+				"text": "Trials are held every year during Fresher's. If successful training and coaching is on a regular basis which means that we consistently produce some of the top teams in the Southern divisions.\nSquad sessions on Monday nights 8-10.30pm. \nAll Bucs matches are played on Wednesday.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator badminton_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "badminton_club_scene_3",
+				"npc_name": "Badminton Club Rep",
+				"text": "We have a few different types of memberships with varying costs and events: \nSocial membership is £30, \nSquad membership is £75 (excluding squad top, sold separately through Macron Club Shop) \nSemester membership is £17.50",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator badminton_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "badminton_club_scene_4",
+				"npc_name": "Badminton Club Rep",
+				"text": "Our social club runs weekly, on a Sunday between 12-4, we can provide shuttles and a limited number of rackets. We also have regular socials ranging from standard student nights to club meals and games evenings. Given how popular and diverse we are as a club it's no surprise that our socials are a great way to meet new people and get involved with one of the best sports clubs at Cardiff!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator badminton_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

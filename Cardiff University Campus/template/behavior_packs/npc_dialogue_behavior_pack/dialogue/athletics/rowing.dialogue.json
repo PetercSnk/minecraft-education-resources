@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "rowing_welcome",
+				"npc_name": "Rowing Club Rep",
+				"text": "Welcome to Cardiff University Rowing Club, the leading University Rowing Club in Wales!\n\nCURC is one of the largest clubs in the Athletics Union and is known for its ‘row hard, play harder’ ethos. Unlike most clubs, we don’t do trials. We want to ensure that everyone has the opportunity to try rowing and see what the sport can do for you.",
+				"buttons": [
+					{
+						"name": "When do you meet? ",
+						"commands": ["/dialogue open @s @initiator rowing_club_scene_2"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator rowing_club_scene_3"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator rowing_club_scene_4"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/rowing/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/rowcardiffuni"
+					}
+				]
+			},
+			{
+				"scene_tag": "rowing_club_scene_2",
+				"npc_name": "Rowing Club Rep",
+				"text": "All training is scheduled with students in mind. Courses at Cardiff range in contact hours and CURC works to accommodate for this, including medical-based students. All training schedules include a rest day and we provide accommodations for exams and revision.\nCompetitions are on the weekends.\nSchedules are communicated via the Squad Facebook Pages by Coaches/Captains.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator rowing_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "rowing_club_scene_3",
+				"npc_name": "Rowing Club Rep",
+				"text": "Rowing Club Senior Membership £160.00\nRowing Club Novice Membership £45.00\nRowing Club Social Membership £20.00\nRowing Club COBRA/Alumni Membership £50.00\nRowing Club Cox £30.00\n\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator rowing_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "rowing_club_scene_4",
+				"npc_name": "Rowing Club Rep",
+				"text": "Find us in YOLO every week! Wether you’re drinking pitchers from the oar or just fancy tagging along for a few pints, CURC have something to offer everyone. Our social secs work hard to ensure each theme matches the latter half of our ‘row hard, play harder’ motto, and this year will be no different. Our year begins with the famous back to school social and conclude at the end of each term with a ball, where we finally get to ditch the Lycra and leggings in favour of something more sophisticated. Of course, we mix these up with a few sober socials and activities throughout the year so we get to know each other outside of the training schedule. Our final event sees drink, dressing up ad rowing collide as we set up camp at Henley Royal Regatta and celebrate the end of our season. There’s a social membership on offer as well if you’re just interested in joining us for all the fun!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator rowing_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

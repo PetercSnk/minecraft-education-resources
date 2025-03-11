@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "fencing_welcome",
+				"npc_name": "Fencing Club Rep",
+				"text": "The Cardiff University Fencing Club caters for all abilities, from complete beginners to Olympic hopefuls; and we have a wide range of members that partake in recreational and competitive fencing.\nMembership also includes access to additional training sessions at Cardiff Academy of Fencing, for those looking to take their fencing further and have access to more advanced coaching.\n\nFor beginners, we offer a six-week training course with our coaches in the first semester, followed by the annual beginner’s competition. After this, more training is available to introduce you to the different weapons, before integrating with the rest of the club after Christmas. No equipment is required for this course!",
+				"buttons": [
+					{
+						"name": "When do you meet? ",
+						"commands": ["/dialogue open @s @initiator fencing_club_scene_2"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator fencing_club_scene_3"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator fencing_club_scene_4"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/fencing/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiff.uni.fencing"
+					}
+				]
+			},
+			{
+				"scene_tag": "fencing_club_scene_2",
+				"npc_name": "Fencing Club Rep",
+				"text": "Our main training court bookings are Monday 17:30-19:30 and Friday 19:30-21:30, held on courts 5 and 6 in the far hall of Talybont Sports Centre (down the corridor to the left as you enter the reception.\n\nBoth sessions are open to all beginners, intermediates & experienced fencers alike and are usually followed by a friendly social in one of the nearby pubs. ",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator fencing_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "fencing_club_scene_3",
+				"npc_name": "Fencing Club Rep",
+				"text": "Fencing Club Standard Membership £75.00\nFencing Club Half Year/Erasmus Membership £45.00\nFencing Club Premium Membership £85.00\n\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator fencing_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "fencing_club_scene_4",
+				"npc_name": "Fencing Club Rep",
+				"text": "We usually run a range of socials that are open to all including club nights, ice skating, fancy dress events, escape rooms, badminton and more! We also have Fencing Family Socials (freshers = children, seniors = parents) which are a great way to start integrating with more senior members of the club. Additionally, we aim to hold two formal events a year: one before Christmas, and one at the end of the year.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator fencing_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

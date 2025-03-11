@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "table_tennis_welcome",
+				"npc_name": "Table Tennis Club Rep",
+				"text": "Are you looking to play table tennis, whether competitively or just for fun? The Cardiff University Table Tennis Club is rapidly growing and offers opportunities for both experienced players and beginners. We have 2 men's teams and 1 ladies' team competing against other universities, as well as recreational sessions open to everyone.\n\nWe hold trials for spots in our training squad, which competes in the British Universities and Colleges Sport (BUCS) leagues. Squad players also have the chance to participate in the annual National BUCS Individual Championships in Nottingham. Follow our Instagram page (@cardiffunitt) for trial details.",
+				"buttons": [
+					{
+						"name": "When are meetings?",
+						"commands": ["/dialogue open @s @initiator table_tennis_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator table_tennis_cost"]
+					},
+					{
+						"name": "Kind of Socials?",
+						"commands": ["/dialogue open @s @initiator table_tennis_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/table/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/cardiffunitt"
+					}
+				]
+			},
+			{
+				"scene_tag": "table_tennis_meetings",
+				"npc_name": "Table Tennis Club Rep",
+				"text": "Open to all, our recreational sessions offer a great way to enjoy table tennis in a relaxed setting. Make sure to check our Instagram page beforehand to confirm session times. Sessions are held on Fridays and Saturdays.\n\nFor those in the BUCS teams, we have dedicated training sessions every Sunday from 12:00-15:00 at Talybont Sports Centre, Bevan Pl, Cardiff CF14 3AT.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator table_tennis_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "table_tennis_cost",
+				"npc_name": "Table Tennis Club Rep",
+				"text": "We offer two types of memberships to suit different needs:\n\nSocial Membership: This membership grants access to 6 hours of table tennis per week, including recreational sessions, social events, and some light coaching. This is £30.\n\nBUCS Membership: This includes all the benefits of the Social Membership plus team training on Sundays with a coach and the opportunity to compete in the BUCS league. BUCS members will also need to purchase a team shirt, and transport for away matches is provided. This is £40.\n\nAs well as this we offer a half year membership at £15.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator table_tennis_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "table_tennis_socials",
+				"npc_name": "Table Tennis Club Rep",
+				"text": "Our club is not just about playing table tennis; we also have a vibrant social scene. We organize various socials throughout the year at pubs and bars, with special events like our annual Christmas meal. Keep an eye on our Instagram page for the latest updates on social events and join us for some fun off the table!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator table_tennis_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

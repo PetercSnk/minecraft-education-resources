@@ -1,0 +1,19 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "tourInit0",
+				"npc_name": "Guide",
+				"text": "Welcome to the Cardiff University Campus, you can find various buildings and people to interact with here. You can also find a guide near each location for quick transport.",
+				"buttons": [
+					{
+						"name": "Thanks",
+						"commands": ["dialogue change @e [type=npc, tag=guide, r=5] tourGuide0"]
+					}
+                ]	
+        	}
+    	]
+	}
+}
+	

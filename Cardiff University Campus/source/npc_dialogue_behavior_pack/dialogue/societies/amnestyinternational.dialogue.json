@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "amnestyinternational_welcome",
+				"npc_name": "Amnesty International Society Rep",
+				"text": "Welcome to Amnesty International, a human rights activist group. As a society, we work together to fundraise, campaign and protest to show solidarity with those whose human rights have been abused or denied. \n\nWe work on the principle that human rights are a universal belonging. Globally, Amnesty works to protect these rights. If you're looking for a society, where you can meet like-minded people and have fun - all whilst making a difference and advocating for human rights, Amnesty International will be a great choice for you. ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator amnestyinternational_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator amnestyinternational_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator amnestyinternational_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/amnestyinternational/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://instagram.com/amnestycardiff"
+					}
+				]
+			},
+			{
+				"scene_tag": "amnestyinternational_when_are_meetings",
+				"npc_name": "Amnesty International Society Rep",
+				"text": "We meet fortnightly on Tuesdays for meetings & socials!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator amnestyinternational_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "amnestyinternational_how_much",
+				"npc_name": "Amnesty International Society Rep",
+				"text": "Our membership is free!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator amnestyinternational_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "amnestyinternational_socials",
+				"npc_name": "Amnesty International Society Rep",
+				"text": "We host a variety of socials. For full details, have a look at our social media pages.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator amnestyinternational_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

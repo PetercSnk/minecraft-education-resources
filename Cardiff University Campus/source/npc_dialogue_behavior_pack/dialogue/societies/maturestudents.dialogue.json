@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "maturestudents_welcome",
+				"npc_name": "Mature Students Society Rep",
+				"text": "Welcome to the Cardiff University Mature Students Society, a vibrant community where age is just a number and life experience is celebrated. \n\nWe understand that being in education as a mature student comes with its own set of challenges and triumphs. Our society is built on a foundation of inclusivity, ensuring that everyone feels welcome and understood. ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator maturestudents_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator maturestudents_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator maturestudents_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/maturestudentsociety/"
+					},
+					{
+						"name": "See Facebook",
+                        			"url": "https://www.facebook.com/groups/maturestudentsoc"
+					}
+				]
+			},
+			{
+				"scene_tag": "maturestudents_when_are_meetings",
+				"npc_name": "Mature Students Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator maturestudents_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "maturestudents_how_much",
+				"npc_name": "Mature Students Society Rep",
+				"text": "Our membership is £1.00 for the year!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator maturestudents_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "maturestudents_socials",
+				"npc_name": "Mature Students Society Rep",
+				"text": "We aim to have many socials including: brunches, mini golf and pub quizzes!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator maturestudents_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

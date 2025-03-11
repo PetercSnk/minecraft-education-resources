@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "tennis_welcome",
+				"npc_name": "Tennis Club Rep",
+				"text": "Cardiff University Tennis Club (CUTC) is one of the largest and most active clubs at Cardiff University, boasting over 250 members and eight BUCS teams. After the disruptions caused by COVID-19, we are back and more enthusiastic than ever!\n\nOur Social Tennis is open to players of all abilities. Whether you’re an experienced player or have never picked up a racket before, you are welcome!\n\nCardiff University is gaining recognition as a high-performance tennis university. Our team ethos emphasizes inclusivity, with squad training sessions and weekly team allocations. Our fixtures are held at the House of Sport, Ocean Park Arena, and Heath Park.\n",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator tennis_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator tennis_cost"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator tennis_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/sport/tennis/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/Cardifftennis"
+					}
+				]
+			},
+			{
+				"scene_tag": "tennis_meetings",
+				"npc_name": "Tennis Club Rep",
+				"text": "We have social tennis sessions every Wednesday and Sunday, as well as lessons being available on Wednesday. \n\nAll social tennis activities take place at Cardiff Lawn Tennis Club, centrally located near Cardiff Castle. The club features 11 courts (4 acrylic, 4 hard courts, and 3 artificial clay courts) and has excellent facilities, including a clubhouse with a bar and hot food, stringing services, and affordable rackets.\n\nWe also arrange Social/Development team matches against Cardiff Met a few times each term for those interested in competitive play.\n\nFor updates and extra information about team structure and schedule visit our webpage!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator tennis_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "tennis_cost",
+				"npc_name": "Tennis Club Rep",
+				"text": "We offer two types of memberships:\n\nTeam Membership: £170.00\nSocial Membership: £60.00\n\nThese memberships provide access to our sessions, socials and general society events!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator tennis_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "tennis_socials",
+				"npc_name": "Tennis Club Rep",
+				"text": "Wednesday night socials are a hallmark of CUTC, bringing together both social and team members. We host themed events and non-alcoholic activities, making our socials inclusive for all. Our first \"tennis whites\" social had over 110 attendees! We also utilize Bute Park for controlled society meet-ups.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator tennis_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

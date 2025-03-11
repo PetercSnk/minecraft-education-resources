@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "music_welcome",
+				"npc_name": "Music Society Rep",
+				"text": "Cardiff University Music Society is open to all Cardiff University students from any subject areas! Here at the Music Society, all you need is a love for music!\n\nAs a member of the Music Society, you'll be welcome to join any of our range of ensembles. All of our ensembles are non-auditioned and run by our student members. Anyone of any ability is welcome, and a full list can be found on our SU page! ",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator music_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator music_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator music_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/music/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/CardiffUniMuSoc/"
+					}
+				]
+			},
+			{
+				"scene_tag": "music_when_are_meetings",
+				"npc_name": "Music Society Rep",
+				"text": "Our main performance opportunity is the fortnightly Lunchtime Concert series, which takes place every other Thursday in the School of Music Concert Hall at 12:30pm.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator music_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "music_how_much",
+				"npc_name": "Music Society Rep",
+				"text": "Our membership is £10.00 for the year!\n\nAs a member of the society you will have access to a range of musical ensembles, social events, performance opportunities, rehearsal spaces, practice rooms and more.",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator music_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "music_socials",
+				"npc_name": "Music Society Rep",
+				"text": "Our regular socials will be a mix of alcoholic and non-alcoholic events, and are a great way to get to know other musicians and members of the society. \n\nLook out for updates on our SU page as well as our Instagram and Facebook pages for upcoming socials!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator music_welcome"]
+					}
+				]
+			}
+		]
+	}
+}

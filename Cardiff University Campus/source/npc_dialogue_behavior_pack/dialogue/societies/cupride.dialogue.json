@@ -1,0 +1,70 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"scene_tag": "cupride_welcome",
+				"npc_name": "CU Pride Society Rep",
+				"text": "Welcome to CU Pride, Cardiff University's LGBT+ Society! We’re one of the most active societies across the University. \n\nWe welcome everyone regardless of Gender Identity or Sexual Orientation and pride ourselves on being an all-inclusive society. Discrimination against any protected characteristics will not be tolerated. We hope that you have a great year with the society!",
+				"buttons": [
+					{
+						"name": "When do you meet?",
+						"commands": ["/dialogue open @s @initiator cupride_when_are_meetings"]
+					},
+					{
+						"name": "How much is it?",
+						"commands": ["/dialogue open @s @initiator cupride_how_much"]
+					},
+					{
+						"name": "Kind of socials?",
+						"commands": ["/dialogue open @s @initiator cupride_socials"]
+					},
+					{
+						"name": "Thank you!"
+					},
+					{
+						"name": "See Webpage",
+                        			"url": "https://www.cardiffstudents.com/activities/society/10240/"
+					},
+					{
+						"name": "See Instagram",
+                        			"url": "https://www.instagram.com/lgbtcardiff/"
+					}
+				]
+			},
+			{
+				"scene_tag": "cupride_when_are_meetings",
+				"npc_name": "CU Pride Society Rep",
+				"text": "We don't have a specific day, but specific date and times for socials we run can be found on our SU page and our social media.\n",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cupride_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cupride_how_much",
+				"npc_name": "CU Pride Society Rep",
+				"text": "Our membership is free! \n\nWe also offer a plus card/premium membership with benefits for the Pulse nightclub!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cupride_welcome"]
+					}
+				]
+			},
+			{
+				"scene_tag": "cupride_socials",
+				"npc_name": "CU Pride Society Rep",
+				"text": "We host multiple socials a week and a variety of different events - drinking and non-drinking, day time and night time, on and off the gay scene and on different days throughout the week. There is something for everyone!",
+				"buttons": [
+					{
+						"name": "Thank you!",
+						"commands": ["/dialogue open @s @initiator cupride_welcome"]
+					}
+				]
+			}
+		]
+	}
+}
